@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Pill</title>
+
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="#">
+            <img src="./images/greenpill-logo.svg" alt="Green Pill logo"/>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#book">BOOK</a></li>
+                <li><a href="#podcast">PODCAST</a></li>
+                <li><a href="#pledge">PLEDGE</a></li>
+            </ul>
+        </nav>
+
+        <!-- <nav class="mobile">
+
+        </nav> -->
+    </header>
+
+
+    <main>
+        <div class="hero" id="hero">
+            <img class="hero-background" src="./images/hero-background.svg" alt="">
+            <h1>Take the<br>Green Pill</h1>
+            <img class="hero-logo" src="./images/hero-greenpill-logo.svg" alt="Green Pill logo" width="45%">
+        </div>
+
+        <!-- book -->
+        <div class="book" id="book">
+            <img src="./images/book-cover.svg" alt="Green Pill book cover" width="35%">
+            <div class="book-content">
+                <h2>Purchase the <br>Green Pill book</h2>
+                <div class="book-content-buttons">
+                    <a href="" class="button" id="hardcover-button"> Hardcover</a>
+                    <a href="" class="button">Ebook</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- podcast -->
+        <div class="podcast-background" id="podcast">
+            <img class="effects" src="./images/podcast-background-effects.png" alt="">
+            <div class="podcast">
+                <div class="podcast-content">
+                    <h2>Subscribe<br>to the<br>Green Pill<br>podcast</h2>
+                    <a href="" class="button">Listen</a>
+                </div>
+                <img src="./images/podcast-cover.svg" alt="podcast-cover" width="48%">
+            </div>
+        </div>
+
+        <!-- pledge -->
+
+        <div class="pledge" id="pledge">
+            <form>
+                <p>Make a pledge</p>
+                <label for="percentage">I pledge</label>
+                <input type="text" name="percentage" id="percentage" placeholder="Enter a percentage"/>
+                <label for="amount">of my wealth above</label>
+                <input type="text" name="amount" id="amount" placeholder="Enter the amount"/>
+                <label for="cause">to the cause of</label>
+                <input type="text" name="cause" id="cause" placeholder="Enter a cause"/>
+                <div class="form-buttons">
+                    <input type="button" value="What's this?" class="button-question"/>
+                    <input type="button" value="Tweet" class="button-tweet button"/>
+                </div> 
+            </form>
+
+            <footer>
+                <img src="./images/footer-icon.svg" alt="built by gitcoin community icon">
+            </footer>
+        </div>
+    </main>
+</body>
+</html>

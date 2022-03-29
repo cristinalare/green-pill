@@ -24,9 +24,13 @@ a,
     transition: all 0.3s ease-in-out;
 }
 
-a:hover,
-a:focus {
+nav a:hover {
     color: #02E2AC;
+}
+
+.announcement:hover,
+.preview:hover {
+    color:#6b36fa;
 }
 
 input[type="text"]:focus {
@@ -70,7 +74,10 @@ h1,
 h2,
 p,
 input,
-label {
+label,
+.preview,
+.announcement,
+.footer-telegram {
     font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: 400;
@@ -89,6 +96,15 @@ label {
     color: #0E0333;
     background-color: #02E2AC;
     border-radius: 0.4em;
+}
+
+.button.large {
+    width: fit-content;
+    padding: 0.85em 0.9em;
+}
+
+.button.green:hover {
+    background-color: #02e2aead;
 }
 
 .button:active {
@@ -176,8 +192,11 @@ li:not(:last-child) {
     justify-content: space-evenly;
 }
 
-.hero h1 {
+.hero-content {
     padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
 }
 
 .hero-background {
@@ -189,8 +208,10 @@ li:not(:last-child) {
 }
 
 @media only screen and (max-width: 768px) {
-    .hero h1 {
+    .hero-content {
         text-align: center;
+        
+        align-items: center;
     }
     
     .hero {
@@ -219,18 +240,34 @@ li:not(:last-child) {
     padding: 5% 0;
 }
 
+.book-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 2rem;
+}
+
+.book-content h2 {
+    padding-bottom: 0.6rem;
+}
 .book-content .button {
     display: inline-block;
 }
 
-#hardcover-button {
-    margin-right: 2em;
+.book-content-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.book-content .button:hover,
-.book-content .button:focus {
-    background-color: #02e2aead;
-    color: #0E0333;
+.book-button-container:not(:last-child) {
+    margin-right: 1.8rem;
+}
+
+.price {
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -244,10 +281,15 @@ li:not(:last-child) {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-top: 1rem;
     }
     
     .book img {
         width: 55%;
+    }
+
+    .preview {
+        font-size: 1.125rem;
     }
 }
 
@@ -297,6 +339,18 @@ li:not(:last-child) {
     background-color:#dfdede;
 }
 
+/* Telegram section 
+=================== */
+.telegram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+
 /* Pledge section
 ==================== */
 
@@ -327,7 +381,7 @@ form input {
     color: #02E2AC;
     background-color: #E6FFF9;
     border: 1px solid #02E2AC;
-    padding: 1% 4%;
+    padding: 2.5% 4%;
     margin-bottom: 2.4rem;
     width: 30rem;
     transition: border 0.3s;
@@ -380,10 +434,45 @@ input::placeholder {
     background-color: #04c799;
 }
 
+.announcement {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .announcement {
+        font-size: 1.125rem;
+    }
+}
+
 /* footer 
 =========== */
 
+footer {
+    margin: 7rem 0 10rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    margin: 0 3rem;
+    font-size: 1.5rem;
+}
+
 footer img {
     height: 3rem;
-    margin: 5% 0;
+}
+
+.footer-telegram {
+    color:#6b36fa;
+}
+
+.footer-telegram:hover {
+    color:#8C65F7;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-telegram {
+        font-size: 1.125rem;
+    }
 }

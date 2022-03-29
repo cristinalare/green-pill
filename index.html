@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Pill</title>
-
+    <title>GreenPill.Party</title>
+    <meta name="description" content="Build a more solarpunk future by getting Green Pilled, pledge to support public goods + join the Green Pill Party today.">
     <link rel="stylesheet" href="./css/reset.css" type="text/css">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://s.gitcoin.co/static/v2/images/favicon.ico/apple-touch-icon.486115005c66.png"/>
+    <link rel="icon" href="./images/hero-greenpill-logo.svg" type="image/gif"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@gitcoin">
+    <meta name="twitter:creator" content="@owocki">
+    <meta name="twitter:title" content="GreenPill.Party">
+    <meta name="twitter:description" content="Build a more solarpunk future by getting Green Pilled, pledge to support public goods + join the Green Pill Party today.">
+    <meta name="twitter:image" content="https://greenpill.party/images/twitter.png">
+    
+    <meta property="og:title" content="greenpill.party" />
+    <meta property="og:type" content="blockchain" />
+    <meta property="og:url" content="https://greenpill.party" />
+    <meta property="og:image" content="https://greenpill.party/images/twitter.png" />
+    <meta property="og:description" content="Build a more solarpunk future by getting Green Pilled, pledge to support public goods + join the Green Pill Party today." />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPDC59RT5Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DPDC59RT5Y');
+    </script> -->
 </head>
 
 <body>
@@ -34,7 +65,11 @@
     <main>
         <div class="hero" id="hero">
             <img class="hero-background" src="./images/hero-background.svg" alt="">
-            <h1>Take the<br>Green Pill</h1>
+
+            <div class="hero-content">
+                <h1>Take the<br>Green Pill</h1>
+                <a href="#pledge" class="button large green">Take the Pledge</a>
+            </div>
             <img class="hero-logo" src="./images/hero-greenpill-logo.svg" alt="Green Pill logo" width="45%">
         </div>
 
@@ -44,10 +79,20 @@
             <div class="book-content">
                 <h2>Purchase the <br>Green Pill book</h2>
                 <div class="book-content-buttons">
-                    <a href="" class="button" id="hardcover-button"> Hardcover</a>
-                    <a href="" class="button">Ebook</a>
+                    <div class="book-button-container">
+                        <a class="button green" id="hardcover-button" href="https://www.blurb.com/b/11078160-greenpilled-regenerative-cryptoeconomics" target="_blank">Hardcover</a>
+                        <p class="price">($69.42)</p>
+                    </div>
+                    <div class="book-button-container">
+                        <a class="button green" href="https://www.blurb.com/bookstore/invited/9502747/c7ff865edc08edd6b595c5a9bf5bd613117953e7" target="_blank">Softcover</a>
+                        <p class="price">($33.33)</p>
+                    </div>
+                    <div class="book-button-container">
+                        <a class="button green" href="https://store.gitcoin.co/products/green-pill-book-digital-edition" target="_blank">Ebook</a>
+                        <p class="price">($13.37)</p>
+                    </div>
                 </div>
-                
+                <a class="preview" href="./preview.pdf">Download a preview</a>
             </div>
         </div>
 
@@ -57,33 +102,57 @@
             <div class="podcast">
                 <div class="podcast-content">
                     <h2>Subscribe<br>to the<br>Green Pill<br>podcast</h2>
-                    <a href="" class="button">Listen</a>
+                    <a href="https://availableon.com/greenpill" target="_blank" class="button">Listen</a>
                 </div>
                 <img src="./images/podcast-cover.svg" alt="podcast-cover" width="48%">
             </div>
+        </div>
+
+        <!-- telegram -->
+        <div class="telegram">
+            <h2>Join the<br>conversation</h2>
+            <a class="button large green" href="https://t.me/+g9TM8i7GpxAzMGUx" target="_blank">Join Telegram Group</a>
         </div>
 
         <!-- pledge -->
 
         <div class="pledge" id="pledge">
             <form>
-                <p>Make a pledge</p>
-                <label for="percentage">I pledge</label>
-                <input type="text" name="percentage" id="percentage" placeholder="Enter a percentage"/>
-                <label for="amount">of my wealth above</label>
-                <input type="text" name="amount" id="amount" placeholder="Enter the amount"/>
-                <label for="cause">to the cause of</label>
-                <input type="text" name="cause" id="cause" placeholder="Enter a cause"/>
+                <p>Make a Pledge:</p>
+                <label>I've been GreenPilled!</label><br>
+                <label for="percentage">I Pledge</label>
+                <input type="text" name="percentage" id="percentage" placeholder="1%" value="1%"/>
+                <label for="cause">of my net worth to the cause</label>
+                <input type="text" name="cause" id="cause" placeholder="funding public goods" value="funding public goods"/>
+            
                 <div class="form-buttons">
-                    <input type="button" value="What's this?" class="button-question"/>
-                    <input type="button" value="Tweet" class="button-tweet button"/>
+                    <input type="button" value="What's this?" class="button-question" onclick="alert('This is a simple tool created by the Gitcoin community to facilitate pledges to support a more Solarpunk world.')"/>
+                    <input type="button" value="Tweet" class="button-tweet button" id="tweet"/>
                 </div> 
+
+                <a class="announcement" href="https://www.youtube.com/watch?v=qP7wqLWV33M">Watch the announcement</a>
             </form>
 
             <footer>
                 <img src="./images/footer-icon.svg" alt="built by gitcoin community icon">
+                <span>|</span>
+                <a class="footer-telegram" href="https://t.me/+g9TM8i7GpxAzMGUx" target="_blank">Join the Telegram</a>
             </footer>
         </div>
     </main>
+
+    <script>
+        document.getElementById('tweet').onclick = function(e){
+          var X = document.getElementById('percentage').value;
+          var cause = document.getElementById('cause').value;
+          var text = `💚 I took the #GreenPill and pledged ${X} of my net worth to the cause of ${cause}!
+      
+      🤖❤️ If you join me we can build a #SolarPunk future together.
+      
+      👉 Make the pledge here:`
+          var url = 'https://GreenPill.Party/'
+          window.open("https://twitter.com/intent/tweet?text=" +encodeURIComponent(text)+ "&url=" + encodeURI(url),"_blank");
+        }
+    </script>
 </body>
 </html>

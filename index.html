@@ -20,16 +20,16 @@
     <meta name="twitter:creator" content="@owocki">
     <meta name="twitter:title" content="GreenPill.Party">
     <meta name="twitter:description" content="Build a more solarpunk future by getting Green Pilled, pledge to support public goods + join the Green Pill Party today.">
-    <meta name="twitter:image" content="https://greenpill.party/images/twitter.png">
+    <meta name="twitter:image" content="https://greenpill.party/images/greenpill-card.jpeg">
     
     <meta property="og:title" content="greenpill.party" />
     <meta property="og:type" content="blockchain" />
     <meta property="og:url" content="https://greenpill.party" />
-    <meta property="og:image" content="https://greenpill.party/images/twitter.png" />
+    <meta property="og:image" content="https://greenpill.party/images/greenpill-card.jpeg" />
     <meta property="og:description" content="Build a more solarpunk future by getting Green Pilled, pledge to support public goods + join the Green Pill Party today." />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPDC59RT5Y"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPDC59RT5Y"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -37,9 +37,8 @@
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-
         gtag('config', 'G-DPDC59RT5Y');
-    </script> -->
+    </script>
 </head>
 
 <body>
@@ -47,7 +46,6 @@
         <a class="logo" href="#">
             <img src="./images/greenpill-logo.svg" alt="Green Pill logo"/>
         </a>
-
         <nav>
             <ul>
                 <li><a href="#book">BOOK</a></li>
@@ -55,22 +53,16 @@
                 <li><a href="#pledge">PLEDGE</a></li>
             </ul>
         </nav>
-
-        <!-- <nav class="mobile">
-
-        </nav> -->
     </header>
-
 
     <main>
         <div class="hero" id="hero">
             <img class="hero-background" src="./images/hero-background.svg" alt="">
-
             <div class="hero-content">
                 <h1>Take the<br>Green Pill</h1>
                 <a href="#pledge" class="button large green">Take the Pledge</a>
             </div>
-            <img class="hero-logo" src="./images/hero-greenpill-logo.svg" alt="Green Pill logo" width="45%">
+            <img class="hero-logo" src="./images/hero-greenpill-logo.svg" alt="Green Pill logo" width="799" height="816">
         </div>
 
         <!-- book -->
@@ -104,7 +96,7 @@
                     <h2>Subscribe<br>to the<br>Green Pill<br>podcast</h2>
                     <a href="https://availableon.com/greenpill" target="_blank" class="button">Listen</a>
                 </div>
-                <img src="./images/podcast-cover.svg" alt="podcast-cover" width="48%">
+                <img src="./images/podcast-cover.svg" alt="greenpill podcast cover" width="48%">
             </div>
         </div>
 
@@ -115,7 +107,6 @@
         </div>
 
         <!-- pledge -->
-
         <div class="pledge" id="pledge">
             <form>
                 <p>Make a Pledge:</p>
@@ -130,7 +121,7 @@
                     <input type="button" value="Tweet" class="button-tweet button" id="tweet"/>
                 </div> 
 
-                <a class="announcement" href="https://www.youtube.com/watch?v=qP7wqLWV33M">Watch the announcement</a>
+                <a class="announcement" href="https://www.youtube.com/watch?v=qP7wqLWV33M" target="_blank">Watch the announcement</a>
             </form>
 
             <footer>
@@ -146,10 +137,10 @@
           var X = document.getElementById('percentage').value;
           var cause = document.getElementById('cause').value;
           var text = `💚 I took the #GreenPill and pledged ${X} of my net worth to the cause of ${cause}!
-      
-      🤖❤️ If you join me we can build a #SolarPunk future together.
-      
-      👉 Make the pledge here:`
+
+        🤖❤️ If you join me we can build a #SolarPunk future together.
+        
+        👉 Make the pledge here:`
           var url = 'https://GreenPill.Party/'
           window.open("https://twitter.com/intent/tweet?text=" +encodeURIComponent(text)+ "&url=" + encodeURI(url),"_blank");
         }

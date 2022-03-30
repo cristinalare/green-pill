@@ -28,11 +28,6 @@ nav a:hover {
     color: #02E2AC;
 }
 
-.announcement:hover,
-.preview:hover {
-    color:#6b36fa;
-}
-
 input[type="text"]:focus {
     outline: none;
     border: 2px solid #02E2AC;
@@ -103,8 +98,14 @@ label,
     padding: 0.85em 0.9em;
 }
 
-.button.green:hover {
-    background-color: #02e2aead;
+@media (hover: hover) {
+    .announcement:hover,
+    .preview:hover {
+        color:#6b36fa;
+    }
+    .button.green:hover {
+        background-color: #02e2aead;
+    }
 }
 
 .button:active {
@@ -205,6 +206,11 @@ li:not(:last-child) {
     top:0;
     left:0;
     z-index: -1;
+}
+
+.hero-logo {
+    width: 45%; 
+    height: auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -335,8 +341,10 @@ li:not(:last-child) {
     color:#0E0333;
 }
 
-.podcast-content .button:hover {
-    background-color:#dfdede;
+@media (hover: hover) {
+    .podcast-content .button:hover {
+        background-color:#dfdede;
+    }
 }
 
 /* Telegram section 
@@ -384,7 +392,7 @@ form input {
     padding: 2.5% 4%;
     margin-bottom: 2.4rem;
     width: 30rem;
-    transition: border 0.3s;
+    transition: border 0.2s ease-out;
 }
 
 input::placeholder {
@@ -415,11 +423,6 @@ input::placeholder {
     border: none;
 }
 
-.button-question:hover,
-.button-question:focus {
-    color: #6b36fa;
-}
-
 .button-tweet {
     padding-left: 3em;
     padding-right: 0.5em;
@@ -429,9 +432,16 @@ input::placeholder {
     color:#FFFFFF;
 }
 
-.button-tweet:hover,
-.button-tweet:focus {
+@media (hover: hover) {
+    .button-question:hover,
+    .button-question:focus {
+        color: #6b36fa;
+    }
+
+    .button-tweet:hover,
+    .button-tweet:focus {
     background-color: #04c799;
+    }
 }
 
 .announcement {
@@ -467,8 +477,10 @@ footer img {
     color:#6b36fa;
 }
 
-.footer-telegram:hover {
-    color:#8C65F7;
+@media (hover: hover) {
+    .footer-telegram:hover {
+        color:#8C65F7;
+    }
 }
 
 @media only screen and (max-width: 600px) {

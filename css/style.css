@@ -433,14 +433,12 @@ input::placeholder {
 }
 
 @media (hover: hover) {
-    .button-question:hover,
-    .button-question:focus {
+    .button-question:hover {
         color: #6b36fa;
     }
 
-    .button-tweet:hover,
-    .button-tweet:focus {
-    background-color: #04c799;
+    .button-tweet:hover {
+        background-color: #04c799;
     }
 }
 

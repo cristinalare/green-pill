@@ -60,7 +60,7 @@
         <div class="hero" id="hero">
             <img class="hero-background" src="./images/hero-background.svg" alt="">
             <div class="hero-content">
-                <h1>Take the<br>Green Pill</h1>
+                <h1 class="slide right">Take the<br>Green Pill</h1>
                 <a href="#pledge" class="button large green">Take the Pledge</a>
             </div>
             <img class="hero-logo" src="./images/greenpill-party.svg" alt="green pill party logo" width="799" height="816">
@@ -70,7 +70,7 @@
         <div class="book" id="book">
             <img src="./images/book-cover.svg" alt="Green Pill book cover" width="35%">
             <div class="book-content">
-                <h2>Purchase the <br>Green Pill book</h2>
+                <h2 class="slide left hidden-right">Purchase the <br>Green Pill book</h2>
                 <div class="book-content-buttons">
                     <div class="book-button-container">
                         <a class="button green" id="hardcover-button" href="https://www.blurb.com/b/11078160-greenpilled-regenerative-cryptoeconomics" target="_blank">Hardcover</a>
@@ -91,13 +91,13 @@
 
         <!-- podcast -->
         <div class="podcast-background" id="podcast">
-            <img class="effects" src="./images/podcast-background-effects.png" alt="">
+            <img class="effects" src="./images/podcast-background-effects.svg" alt="background-effects"/>
             <div class="podcast">
                 <div class="podcast-content">
-                    <h2>Subscribe<br>to the<br>Green Pill<br>podcast</h2>
+                    <h2 class="slide right hidden-left">Subscribe<br>to the<br>Green Pill<br>podcast</h2>
                     <a href="https://availableon.com/greenpill" target="_blank" class="button">Listen</a>
                 </div>
-                <img src="./images/podcast-cover.svg" alt="greenpill podcast cover" width="48%">
+                <img src="./images/podcast-cover.svg" alt="greenpill podcast cover" width="48%"/>
             </div>
         </div>
 
@@ -110,7 +110,7 @@
         <!-- pledge -->
         <div class="pledge" id="pledge">
             <form>
-                <p>Make a Pledge:</p>
+                <h2>Make a Pledge:</h2>
                 <label>I've been GreenPilled!</label><br>
                 <label for="percentage">I Pledge</label>
                 <input type="text" name="percentage" id="percentage" placeholder="1%" value="1%"/>
@@ -126,12 +126,42 @@
             </form>
 
             <footer>
-                <img src="./images/footer-icon.svg" alt="built by gitcoin community icon">
+                <img src="./images/footer-icon.svg" alt="built by gitcoin community icon"/>
                 <span>|</span>
                 <a class="footer-telegram" href="https://t.me/+g9TM8i7GpxAzMGUx" target="_blank">Join the Telegram</a>
             </footer>
         </div>
     </main>
+
+    <!-- heading animation -->
+    <script>
+        const headings = document.querySelectorAll('.slide');
+        const config = {
+            root: null,
+            rootMargin: "0px"
+        };
+        
+        if ('IntersectionObserver' in window) { //set initial state to hidden
+            const left = document.querySelector('.hidden-left');
+            const right = document.querySelector('.hidden-right');
+            left.style.transform = 'translateX(99.9%)';
+            right.style.transform = 'translateX(-99.9%)';
+        }
+
+        observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add('animation');
+                } else {
+                    entry.target.classList.remove('animation');
+                }
+            }, config);
+        });
+
+        headings.forEach(heading => {
+            observer.observe(heading);
+        });
+    </script>
 
     <script>
         document.getElementById('tweet').onclick = function(e){

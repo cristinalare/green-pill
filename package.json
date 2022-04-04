@@ -1,13 +1,14 @@
 {
   "scripts": {
-    "prefix": "postcss ./style.css --use autoprefixer -d ./css/ --watch"
+    "postcss:watch": "postcss ./css/style.css -o ./css/style.min.css --watch"
   },
   "browserslist": [
     "defaults"
   ],
-  "dependencies": {
-    "autoprefixer": "^10.4.4",
+  "devDependencies": {
+    "cssnano": "^5.1.7",
     "postcss": "^8.4.12",
+    "autoprefixer": "^10.4.4",
     "postcss-cli": "^9.1.0"
   }
 }

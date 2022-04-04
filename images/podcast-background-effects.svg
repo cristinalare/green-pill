@@ -1,48 +1,4 @@
 <svg width="1775" height="1108" viewBox="0 0 1775 1108" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>
- .slow {
-        -webkit-animation: slidedownslow 2s ease-in-out infinite alternate;
-                animation: slidedownslow 2s ease-in-out infinite alternate;
-    }
-    .fast {
-        -webkit-animation: slideupfast 1.3s ease-in-out infinite alternate;
-                animation: slideupfast 1.3s ease-in-out infinite alternate;
-    }
-    @-webkit-keyframes slideupfast {
-        from {
-        transform: translateY(0%);
-        }
-        to {
-        transform: translateY(-2%);
-        }
-    }
-    @keyframes slideupfast {
-        from {
-        transform: translateY(0%);
-        }
-        to {
-        transform: translateY(-2%);
-        }
-    }
-
-    @-webkit-keyframes slidedownslow {
-        from {
-            transform: translateY(0%);
-        }
-        to {
-            transform: translateY(2%);
-        }
-    }
-
-    @keyframes slidedownslow {
-        from {
-            transform: translateY(0%);
-        }
-        to {
-            transform: translateY(2%);
-        }
-    }
-</style>
 <path class="slow" d="M870 206L897.91 295.95L932.03 226.16L870 206Z" fill="#FFEEA8" stroke="#0E0333" stroke-miterlimit="10"/>
 <path class="fast" d="M802.013 593.926L812.502 699.836L866.111 630.328L802.013 593.926Z" stroke="#0E0333" stroke-miterlimit="10"/>
 <path class="slow" d="M87.1787 540.893L3 552.616L132.509 465.242L87.1787 540.893Z" stroke="#0E0333" stroke-miterlimit="10"/>

@@ -79,6 +79,10 @@ label,
     line-height: 1.2;
 }
 
+.preview,
+.announcement {
+    text-decoration: underline;
+}
 .button {
     width: 8em;
     text-align: center;
@@ -279,7 +283,6 @@ li:not(:last-child) {
 @media only screen and (max-width: 768px) {
     .hero-content {
         text-align: center;
-        
         align-items: center;
     }
     
@@ -297,6 +300,9 @@ li:not(:last-child) {
         height: 120%;
     }
 
+    .cta {
+        font-size: 1.7rem;
+    }
 }
 
 /* Book section 
@@ -364,6 +370,10 @@ li:not(:last-child) {
 
 /* Podcast section
 =================== */
+
+.podcast-container {
+    padding-top: 3rem;
+}
 
 .podcast-background {
     position: relative;

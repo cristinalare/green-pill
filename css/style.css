@@ -567,8 +567,6 @@ footer img {
     left: 25%;
     width: 0%;
     position: fixed;
-    opacity: 1; 
-    transition: opacity 0.35s ease-out;
   }
   
   .alertbox {
@@ -598,9 +596,7 @@ footer img {
   }
 
   .hide {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.35s ease-out;
+    display: none;
   }
 
   @media only screen and (max-width: 800px) {

@@ -558,3 +558,56 @@ footer img {
         font-size: 1.125rem;
     }
 }
+
+/* alert box */
+  .alert-container {
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 0%;
+    position: fixed;
+    opacity: 1; 
+    transition: opacity 0.35s ease-out;
+  }
+  
+  .alertbox {
+    background: linear-gradient(hsl(48,90%,75%), #02e2ac);
+    box-shadow: 0 0 20px hsla(166, 98%, 45%, 0.3);
+    border-radius: 10px;
+    width: 50vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .alert-msg {
+      font-size: 1.35rem;
+  }
+
+  .btn-close-alert {
+    margin: 0;
+    width: fit-content;
+    padding: 0.5em 3em;
+    cursor: pointer;
+  }
+
+  .hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.35s ease-out;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .alert-container {
+        left: 10%;
+    }
+    .alertbox {
+        width: 80vw;
+    }
+  }

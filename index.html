@@ -85,7 +85,7 @@
                         <p class="price">($13.37)</p>
                     </div>
                 </div>
-                <a class="preview" href="./preview.pdf">Download a preview</a>
+                <a class="preview" download="Green Pill preview" href="./preview.pdf">Download a preview</a>
             </div>
         </div>
 
@@ -120,7 +120,13 @@
                 <input type="text" name="cause" id="cause" placeholder="funding public goods" value="funding public goods"/>
             
                 <div class="form-buttons">
-                    <input type="button" value="What's this?" class="button-question" onclick="alert('This is a simple tool created by the Gitcoin community to facilitate pledges to support a more Solarpunk world.')"/>
+                    <div class="alert-container hide">
+                        <div class="alertbox">
+                          <p class="alert-msg">This is a simple tool created by the Gitcoin community to facilitate pledges to support a more Solarpunk world.</p>
+                          <input class="btn-close-alert" type="button" value="OK"/>
+                        </div>
+                    </div>
+                    <input class="btn-open-alert button-question" type="button" value="What's this?"/>
                     <input type="button" value="Tweet" class="button-tweet button" id="tweet"/>
                 </div> 
 
@@ -135,6 +141,20 @@
         </div>
     </main>
 
+    <!-- alert box -->
+    <script>
+        let box = document.querySelector(".alert-container");
+
+        document.querySelector(".btn-open-alert").addEventListener("click", showAlert);
+        document.querySelector(".btn-close-alert").addEventListener("click", hideAlert);
+
+        function showAlert() {
+            box.classList.remove("hide");
+        }
+        function hideAlert() {
+            box.classList.add("hide");
+        }
+    </script>
     <!-- heading animation -->
     <script>
         const headings = document.querySelectorAll('.slide');

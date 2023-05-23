@@ -805,6 +805,9 @@ video {
 .min-h-\[80vh\] {
   min-height: 80vh;
 }
+.min-h-\[50vh\] {
+  min-height: 50vh;
+}
 .w-24 {
   width: 6rem;
 }
@@ -1758,6 +1761,10 @@ video {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.\!px-0 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 .pb-24 {
   padding-bottom: 6rem;
 }
@@ -1921,6 +1928,15 @@ video {
 }
 .text-yellow {
   color: var(--yellow);
+}
+.text-\[\] {
+  color: ;
+}
+.text-\[var\(--mid\)\] {
+  color: var(--mid);
+}
+.text-\[var\(--mid-green\)\] {
+  color: var(--mid-green);
 }
 .underline {
   text-decoration-line: underline;

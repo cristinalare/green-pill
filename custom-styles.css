@@ -45,6 +45,7 @@ button.primary {
   color: var(--dark-green);
   background-color: var(--green);
 }
+
 button.primary:hover {
   background-color: var(--mid-green);
   transform: translate(2px, 2px);
@@ -55,6 +56,7 @@ button.secondary {
   color: var(--green);
   border: 1px solid var(--green);
 }
+
 button.secondary:hover {
   color: var(--mid-green);
   border-color: var(--mid-green);
@@ -67,6 +69,7 @@ button.secondary:hover {
   transition: all 0.3s ease-out;
   cursor: pointer;
 }
+
 .link:hover {
   color: var(--mid-green);
   transform: translate(2px, 2px);
@@ -79,7 +82,7 @@ button.secondary:hover {
 
   .link,
   button {
-    padding: 0.3rem 0.6rem;
+    padding: 0.4rem 0.6rem;
     font-size: 0.85rem;
   }
 
@@ -92,30 +95,7 @@ button.secondary:hover {
   }
 }
 
-/* .hero-section {
-  display: flex;
-  gap: 3rem;
-  justify-content: center;
-  align-items: center;
-  width: min(90%, 55rem);
-  margin: 0 auto;
-  height: 70vh;
-} */
-
 #resource-img {
   max-width: 300px;
   max-height: 300px;
 }
-
-.slides.active {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  overflow: visible;
-}
-.slide.active {
-  width: 100vw;
-  position: absolute;
-  height: 100vh;
-}
-

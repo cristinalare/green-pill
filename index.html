@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +10,14 @@
   <meta name="description" content="Turning Degens to Regens (one green pill at a time)">
 
   <!-- fonts and styles -->
-  <link rel="stylesheet" href="./styles.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="./styles.css" rel="stylesheet" />
   <link rel="stylesheet" href="./custom-styles.css" rel="stylesheet" />
   <link rel="preload" as="image" href="./src/images/img-sequence/01.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Volkhov&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Volkhov&display=swap"
+    rel="stylesheet">
+
   <!-- icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="icon" href="/src/images/greenpill-logo-large.png" type="image/png" sizes="150x150" />
@@ -26,16 +28,14 @@
   <!-- <meta name="twitter:site" content="@gitcoin"> -->
   <meta name="twitter:creator" content="@owocki">
   <meta name="twitter:title" content="greenpill.network">
-  <meta name="twitter:description"
-    content="Turning Degens to Regens (one green pill at a time)">
+  <meta name="twitter:description" content="Turning Degens to Regens (one green pill at a time)">
   <meta name="twitter:image" content="https://greenpill.network/src/images/greenpill-twitter-card.png">
 
   <meta property="og:title" content="greenpill.network" />
   <meta property="og:type" content="blockchain" />
   <meta property="og:url" content="https://greenpill.network" />
   <meta property="og:image" content="https://greenpill.network/src/images/greenpill-twitter-card.png" />
-  <meta property="og:description"
-    content="Turning Degens to Regens (one green pill at a time)" />
+  <meta property="og:description" content="Turning Degens to Regens (one green pill at a time)" />
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPDC59RT5Y"></script>
@@ -49,6 +49,7 @@
     gtag('config', 'G-DPDC59RT5Y');
   </script>
 </head>
+
 <body class="relative">
   <div class="font-inter">
     <div id="logo" class="flex justify-start py-3 px-8 absolute top-0 left-0 right-0 cursor-pointer">
@@ -61,38 +62,47 @@
 
     <div class="slides bg-img-x">
       <div class="slide transition-opacity duration-500 sm:min-h-[100vh] flex items-center justify-center">
-      <header class="flex justify-end py-3 px-8 absolute top-0 left-0 right-0">
-        <div class="sm:hidden z-50 text-green hover:text-white" id="mobile-menu-icon">
-          <svg role="img" fill="none" height="24" viewBox="0 0 24 24" width="24"
-            xmlns="http://www.w3.org/2000/svg">
-            <title>menu icon</title>
-            <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-              stroke-width="2" />
-          </svg>
-        </div>
-        <nav class="absolute sm:static sm:block hidden right-0 top-0" id="mobile-menu">
-          <ul class="flex gap-8 sm:flex-row flex-col sm:h-auto h-screen justify-center sm:w-auto w-[50vw] sm:items-start items-end sm:px-0 px-8 sm:bg-transparent bg-black bg-opacity-70">
-            <a href="#book"><li class="sm:text-left text-right link !font-bold">Book</li></a>
-            <a href="#podcast"><li class="sm:text-left text-right link !font-bold">Podcast</li></a>
-            <a href="#multimedia" data-section="multimedia"><li class="sm:text-left text-right link !font-bold">Multimedia</li></a>
-            <a href="#get-involved" data-section="get-involved"><li class="sm:text-left text-right link !font-bold">Get involved</li></a>
-          </ul>
-        </nav>
-      </header>
+        <header class="flex justify-end py-3 px-8 absolute top-0 left-0 right-0">
+          <div class="sm:hidden z-50 text-green hover:text-white" id="mobile-menu-icon">
+            <svg role="img" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <title>menu icon</title>
+              <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="2" />
+            </svg>
+          </div>
+          <nav class="absolute sm:static sm:block hidden right-0 top-0" id="mobile-menu">
+            <ul
+              class="flex gap-8 sm:flex-row flex-col sm:h-auto h-screen justify-center sm:w-auto w-[50vw] sm:items-start items-end sm:px-0 px-8 sm:bg-transparent bg-black bg-opacity-70">
+              <a href="#book">
+                <li class="sm:text-left text-right link !font-bold">Book</li>
+              </a>
+              <a href="#podcast">
+                <li class="sm:text-left text-right link !font-bold">Podcast</li>
+              </a>
+              <a href="#multimedia" data-section="multimedia">
+                <li class="sm:text-left text-right link !font-bold">Multimedia</li>
+              </a>
+              <a href="#get-involved" data-section="get-involved">
+                <li class="sm:text-left text-right link !font-bold">Get involved</li>
+              </a>
+            </ul>
+          </nav>
+        </header>
 
-      <!-- hero -->
-      <!-- v1 -->
-      
-      <section class="pt-24 sm:py-12 flex justify-center items-center h-full sm:min-h-[80vh]">
-        <h1 class="font-volkhov text-xl sm:text-4xl lg:text-6xl uppercase text-yellow lg:leading-[1.3]">Turning<br />
-          Degens<br />
-          to Regens
-        </h1>
-        <img src="./src/images/img-sequence/01.png" id="hero-img" width="329" height="329" class="w-[150px] h-[150px] sm:w-[230px] sm:h-[230px] lg:w-[329px] lg:h-[329px] " />
-      </section>
+        <!-- hero -->
+        <!-- v1 -->
 
-       <!-- v2 -->
-      <!-- <section class="slide transition-opacity duration-500 flex justify-center items-center min-h-[80vh] img-sequence-container hero-section py-20">
+        <section class="pt-24 sm:py-12 flex justify-center items-center h-full sm:min-h-[80vh]">
+          <h1 class="font-volkhov text-xl sm:text-4xl lg:text-6xl uppercase text-yellow lg:leading-[1.3]">Turning<br />
+            Degens<br />
+            to Regens
+          </h1>
+          <img src="./src/images/img-sequence/01.png" id="hero-img" width="329" height="329"
+            class="w-[150px] h-[150px] sm:w-[230px] sm:h-[230px] lg:w-[329px] lg:h-[329px] " />
+        </section>
+
+        <!-- v2 -->
+        <!-- <section class="slide transition-opacity duration-500 flex justify-center items-center min-h-[80vh] img-sequence-container hero-section py-20">
         <h1 class="font-volkhov text-6xl uppercase text-yellow leading-[1.3]">Turning<br/>
           Degens<br/>
           to Regens
@@ -102,19 +112,26 @@
       </div>
 
       <!-- map -->
-      <section class="slide transition-opacity duration-500 x-100 sm:min-h-screen sm:h-screen py-12 sm:px-8 flex items-center justify-center">
+      <section
+        class="slide transition-opacity duration-500 x-100 sm:min-h-screen sm:h-screen py-12 sm:px-8 flex items-center justify-center">
         <div>
-          <h2 class="font-volkhov text-xl lg:text-3xl text-yellow text-center mb-2 xl:mb-4">We’re building a CoordiNation across Nations & Cultures.</h2>
-          <p class="text-center max-w-md m-auto mb-5 xl:mb-12">CoordiNation (noun): a network-state that exports regenerative digital infrastructure to the world.</p>
+          <h2 class="font-volkhov text-xl lg:text-3xl text-yellow text-center mb-2 xl:mb-4">We’re building a
+            CoordiNation across Nations & Cultures.</h2>
+          <p class="text-center max-w-md m-auto mb-5 xl:mb-12">CoordiNation (noun): a network-state that exports
+            regenerative digital infrastructure to the world.</p>
 
-          <img src="./src/images/map.png" id="map" class="hidden"/>
+          <img src="./src/images/map.png" id="map" class="hidden" />
           <div class="relative flex justify-center w-fit m-auto" id="map-container">
-            <canvas id="canvas" width="758" height="400" class="flex justify-center z-10 w-[758px] h-[400px] max-w-full h-auto"></canvas>
-            <canvas id="canvas2" width="758" height="400" class=" absolute top-0 left-0 z-20 w-[758px] h-[400px] max-w-full h-auto"></canvas>
+            <canvas id="canvas" width="758" height="400"
+              class="flex justify-center z-10 w-[758px] h-[400px] max-w-full h-auto"></canvas>
+            <canvas id="canvas2" width="758" height="400"
+              class=" absolute top-0 left-0 z-20 w-[758px] h-[400px] max-w-full h-auto"></canvas>
             <!-- <div class="absolute left-[104px] top-[170px] bg-red-400 w-4 h-4 -translate-x-2 -translate-y-2"></div> -->
-            <a target="_blank" class="map-selected-link hidden opacity-0 group scale-75 hover:translate-x-1 hover:translate-y-1 cursor-pointer transition-all duration-300 absolute top-0 left-0 right-0 bg-green rounded-full w-24 h-24 flex-col items-center justify-center z-30">
+            <a target="_blank"
+              class="map-selected-link hidden opacity-0 group scale-75 hover:translate-x-1 hover:translate-y-1 cursor-pointer transition-all duration-300 absolute top-0 left-0 right-0 bg-green rounded-full w-24 h-24 flex-col items-center justify-center z-30">
               <p class="map-selected-name text-black text-center shrink-0"></p>
-              <span id="more-text" class="group-hover:underline text-xs leading-tight text-black shrink-0 w-fit opacity-70">More -></span>
+              <span id="more-text"
+                class="group-hover:underline text-xs leading-tight text-black shrink-0 w-fit opacity-70">More -></span>
             </a>
             <!-- <div class="absolute left-[105px] top-[169px] bg-green rounded-full w-4 h-4 -translate-x-2 -translate-y-2"></div> -->
           </div>
@@ -124,136 +141,156 @@
 
 
       <!-- books -->
-      <section class="slide transition-opacity duration-500 x-100 pb-6 sm:min-h-screen sm:h-screen flex items-center justify-center" id="book">
+      <section
+        class="slide transition-opacity duration-500 x-100 pb-6 sm:min-h-screen sm:h-screen flex items-center justify-center"
+        id="book">
         <div class="flex xl:gap-10 gap-4 xl:flex-col items-center sm:flex-row flex-col">
-        <div>
-          <h2 class="font-volkhov text-xl lg:text-3xl text-yellow text-center mb-4">The Greenpill v0 book (2022)</h2>
-          <p class="text-center">Greenpill v0 is all about how crypto could regenerate the world.</p>
-          <p class="text-center"> ImpactDAOs v0 is about the projects that are making it
-          happen.</p>
-          
-          <p class="2xl:mt-6 mt-4 text-center">Download a copy to get up to speed today.</p>
-        </div>
+          <div>
+            <h2 class="font-volkhov text-xl lg:text-3xl text-yellow text-center mb-4">The Greenpill v0 book (2022)</h2>
+            <p class="text-center">Greenpill v0 is all about how crypto could regenerate the world.</p>
+            <p class="text-center"> ImpactDAOs v0 is about the projects that are making it
+              happen.</p>
 
-        <div class="flex gap-6 xl:gap-[5%] justify-center relative">
+            <p class="2xl:mt-6 mt-4 text-center">Download a copy to get up to speed today.</p>
+          </div>
 
-          <!-- parallax bg elements -->
-          <!-- <img data-speed="-1.5" data-movex="500" src="./src/images/background/bg-el1.png" width="100" height="100" alt=""
+          <div class="flex gap-6 xl:gap-[5%] justify-center relative">
+
+            <!-- parallax bg elements -->
+            <!-- <img data-speed="-1.5" data-movex="500" src="./src/images/background/bg-el1.png" width="100" height="100" alt=""
             class="absolute z-0 top-[50vh] parallax-bg" />
           <img data-speed="-1.3" data-movex="950" src="./src/images/background/bg-el3.png" width="60" height="120" alt=""
             class="absolute z-0 top-[10vh] left-[15vw] parallax-bg" />
           <img data-speed="-1.1" data-movex="-300" src="./src/images/background/bg-el2.png" width="100" height="100" alt=""
             class="absolute z-0 top-[70vh] right-0 parallax-bg" /> -->
 
-          <!-- greenpill book -->
-          <div class="flex flex-col items-center">
-            <img src="./src/images/greenpill-cover.png" class="mb-4 w-auto max-h-[230px] 2xl:w-[250px] 2xl:h-[300px] 2xl:max-h-none" width="250" height="300" alt="Greenpill book cover" />
-            <div>
-              <div class="flex gap-4 justify-center items-start mb-3 xl:flex-row flex-col">
-                <div class="relative border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
-                  <button class="secondary !border-none flex gap-4 justify-between items-center">
-                    <span class="dropdown-btn-selected" data-link="https://www.blurb.com/b/11078160-greenpilled-regenerative-cryptoeconomics">
-                      Hardcover
-                    </span>
-                    <span>
-                      <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1L5.4 6.86667C6.2 7.93333 7.8 7.93333 8.6 6.86667L10 5L13 1" stroke="currentColor" stroke-width="2"
-                          stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </span>
-                  </button>
-                  <div class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300" data-height="126px">
-                    <a class="link !font-bold dropdown-btn-option" data-link="https://www.blurb.com/bookstore/invited/9502747/c7ff865edc08edd6b595c5a9bf5bd613117953e7">
-                      Softcover
-                    </a>
-                    <a class="link !font-bold dropdown-btn-option" data-link="https://store.gitcoin.co/products/green-pill-book-digital-edition">
-                      Ebook
-                    </a>
-                    <a class="link !font-bold dropdown-btn-option" data-link="https://www.youtube.com/watch?v=7m0ufzqju_4&t=1s">
-                      Audiobook
-                    </a>
-                  </div>
-                </div>
-
-                <a class="dropdown-btn-shop" href="https://www.blurb.com/b/11078160-greenpilled-regenerative-cryptoeconomics" target="_blank">
-                  <button class="primary">Shop now</button>
-                </a>
-              </div>
-              <div class="flex gap-0 xl:gap-4 flex-wrap justify-center xl:flex-row flex-col items-center">
-                <a href="./src/pdf/green-pill-preview.pdf" download="Green Pill preview" class="link sm:text-base text-sm text-center">Download preview</a>
-                <a href="https://gist.github.com/owocki/06c6f1b250c1027d5a06fd7f4f337776" target="_blank" class="link sm:text-base text-sm">
-                  Translations
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- impact dao book -->
-          <div class="flex flex-col items-center">
-            <img src="./src/images/impactdao-cover.png" width="244" height="300" class="mb-4 w-auto max-h-[230px] 2xl:w-[244px] 2xl:h-[300px] 2xl:max-h-none" alt="ImpactDAOs book cover" />
-            <div>
-              <div class="flex gap-4 justify-center items-start xl:flex-row flex-col mb-3">
-                <div
-                  class="border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
-                  <button class="secondary !border-none flex gap-4 justify-between items-center">
-                    <span class="dropdown-btn-selected" data-link="https://www.blurb.com/b/11120667-impactdaos">
-                      Softcover
-                    </span>
-                    <span>
-                      <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1L5.4 6.86667C6.2 7.93333 7.8 7.93333 8.6 6.86667L10 5L13 1" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </span>
-                  </button>
+            <!-- greenpill book -->
+            <div class="flex flex-col items-center">
+              <img src="./src/images/greenpill-cover.png"
+                class="mb-4 w-auto max-h-[230px] 2xl:w-[250px] 2xl:h-[300px] 2xl:max-h-none" width="250" height="300"
+                alt="Greenpill book cover" />
+              <div>
+                <div class="flex gap-4 justify-center items-start mb-3 xl:flex-row flex-col">
                   <div
-                    class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300"
-                    data-height="40px">
-                    <a class="link !font-bold dropdown-btn-option" data-link="https://store.gitcoin.co/products/impactdao-book-digital-edition">
-                      Ebook
-                    </a>
+                    class="relative border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
+                    <button class="secondary !border-none flex gap-4 justify-between items-center">
+                      <span class="dropdown-btn-selected"
+                        data-link="https://www.blurb.com/b/11078160-greenpilled-regenerative-cryptoeconomics">
+                        Hardcover
+                      </span>
+                      <span>
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L5.4 6.86667C6.2 7.93333 7.8 7.93333 8.6 6.86667L10 5L13 1" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </span>
+                    </button>
+                    <div
+                      class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300"
+                      data-height="145">
+                      <a class="link !font-bold dropdown-btn-option"
+                        data-link="https://www.blurb.com/bookstore/invited/9502747/c7ff865edc08edd6b595c5a9bf5bd613117953e7">
+                        Softcover
+                      </a>
+                      <a class="link !font-bold dropdown-btn-option"
+                        data-link="https://store.gitcoin.co/products/green-pill-book-digital-edition">
+                        Ebook
+                      </a>
+                      <a class="link !font-bold dropdown-btn-option"
+                        data-link="https://www.youtube.com/watch?v=7m0ufzqju_4&t=1s">
+                        Audiobook
+                      </a>
+                    </div>
                   </div>
-                </div>
 
-                <a class="dropdown-btn-shop" href="https://www.blurb.com/b/11120667-impactdaos" target="_blank">
-                  <button class="primary">Shop now</button>
-                </a>
+                  <a class="dropdown-btn-shop"
+                    href="https://www.blurb.com/b/11078160-greenpilled-regenerative-cryptoeconomics" target="_blank">
+                    <button class="primary">Get it</button>
+                  </a>
+                </div>
+                <div class="flex gap-0 xl:gap-4 flex-wrap justify-center xl:flex-row flex-col items-center">
+                  <a href="./src/pdf/green-pill-preview.pdf" download="Green Pill preview"
+                    class="link sm:text-base text-sm text-center">Download preview</a>
+                  <a href="https://gist.github.com/owocki/06c6f1b250c1027d5a06fd7f4f337776" target="_blank"
+                    class="link sm:text-base text-sm">
+                    Translations
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- impact dao book -->
+            <div class="flex flex-col items-center">
+              <img src="./src/images/impactdao-cover.png" width="244" height="300"
+                class="mb-4 w-auto max-h-[230px] 2xl:w-[244px] 2xl:h-[300px] 2xl:max-h-none"
+                alt="ImpactDAOs book cover" />
+              <div>
+                <div class="flex gap-4 justify-center items-start xl:flex-row flex-col mb-3">
+                  <div
+                    class="border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
+                    <button class="secondary !border-none flex gap-4 justify-between items-center">
+                      <span class="dropdown-btn-selected" data-link="https://www.blurb.com/b/11120667-impactdaos">
+                        Softcover
+                      </span>
+                      <span>
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L5.4 6.86667C6.2 7.93333 7.8 7.93333 8.6 6.86667L10 5L13 1" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </span>
+                    </button>
+                    <div
+                      class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300"
+                      data-height="45">
+                      <a class="link !font-bold dropdown-btn-option"
+                        data-link="https://store.gitcoin.co/products/impactdao-book-digital-edition">
+                        Ebook
+                      </a>
+                    </div>
+                  </div>
+
+                  <a class="dropdown-btn-shop" href="https://www.blurb.com/b/11120667-impactdaos" target="_blank">
+                    <button class="primary">Get it</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         </div>
       </section>
 
       <!-- podcast -->
       <section id="podcast" class="slide transition-opacity duration-500 x-100 sm:h-screen relative">
-        <div class="pb-24 pt-12 max-w-3xl sm:min-h-screen flex gap-4 sm:gap-[10%] items-center justify-center m-auto flex-col sm:flex-row">
+        <div
+          class="pb-24 pt-12 max-w-3xl sm:min-h-screen flex gap-4 sm:gap-[10%] items-center justify-center m-auto flex-col sm:flex-row">
           <!-- parallax bg elements -->
-          <img data-speed="-1.5" data-movex="500" src="./src/images/background/bg-el1.png" width="100" height="100" alt=""
-            class="absolute z-0 top-[50vh] parallax-bg" />
-          <img data-speed="-1.3" data-movex="400" src="./src/images/background/bg-el3.png" width="60" height="120" alt=""
-            class="absolute z-0 top-[10vh] left-[15vw] parallax-bg" />
-          <img data-speed="-1.1" data-movex="-300" src="./src/images/background/bg-el2.png" width="100" height="100" alt=""
-            class="absolute z-0 top-[70vh] right-0 parallax-bg" />
+          <img data-speed="-1.5" data-movex="500" src="./src/images/background/bg-el1.png" width="100" height="100"
+            alt="" class="absolute z-0 top-[50vh] parallax-bg" />
+          <img data-speed="-1.3" data-movex="400" src="./src/images/background/bg-el3.png" width="60" height="120"
+            alt="" class="absolute z-0 top-[10vh] left-[15vw] parallax-bg" />
+          <img data-speed="-1.1" data-movex="-300" src="./src/images/background/bg-el2.png" width="100" height="100"
+            alt="" class="absolute z-0 top-[70vh] right-0 parallax-bg" />
 
           <div class="flex flex-col gap-6 z-10">
-            <h2 class="font-volkhov text-xl lg:text-3xl text-yellow">The Greenpill podcast <br/>
-            (2022 - present)</h2>
+            <h2 class="font-volkhov text-xl lg:text-3xl text-yellow">The Greenpill podcast <br />
+              (2022 - present)</h2>
             <p>The greenpill podcast dives deeper into the regenerative crypto-economic frontier.</p>
-            
-            <p>With new episodes every Tuesday and Thursday, the greenpill podcast is your go-to source for education, inspiration, &
-            hope.</p>
+
+            <p>With new episodes every Tuesday and Thursday, the greenpill podcast is your go-to source for education,
+              inspiration, &
+              hope.</p>
             <div class="flex flex-wrap sm:gap-4 items-center sm:justify-start justify-center">
               <a href="https://pod.link/1609313639" target="_blank"><button class="primary">Subscribe</button></a>
               <a class="link" href="mailto:kevin@supermodular.xyz" target="_blank">Recommend a guest</a>
             </div>
           </div>
 
-          <img src="./src/images/podcast-cover.png" width="300" height="300" class="xl:w-[300px] xl:h-[300px] w-[230px] h-[230px]" alt="greenpill podcast cover" />
+          <img src="./src/images/podcast-cover.png" width="300" height="300"
+            class="xl:w-[300px] xl:h-[300px] w-[230px] h-[230px]" alt="greenpill podcast cover" />
         </div>
       </section>
-</div>
-<div>
+    </div>
+    <div>
       <!-- resources -->
       <section id="multimedia" class="pb-24 pt-12 sm:min-h-screen max-w-4xl m-auto relative">
         <!-- parallax bg elements -->
@@ -261,48 +298,58 @@
           class="absolute z-0 top-[30vh] parallax-bg" />
         <img data-speed="-1.3" data-movex="950" src="./src/images/background/bg-el3.png" width="60" height="120" alt=""
           class="absolute z-0 top-[10vh] left-[15vw] parallax-bg" />
-        <img data-speed="-1.1" data-movex="-200" src="./src/images/background/bg-el2.png" width="100" height="100" alt=""
-          class="absolute z-0 top-[70vh] right-0 parallax-bg" />
+        <img data-speed="-1.1" data-movex="-200" src="./src/images/background/bg-el2.png" width="100" height="100"
+          alt="" class="absolute z-0 top-[70vh] right-0 parallax-bg" />
         <h2 class="font-volkhov text-xl lg:text-3xl text-yellow">Resources</h2>
         <div class="flex gap-2 sm:gap-[10%] justify-center relative h-fit">
           <div class="divide-y divide-yellow">
-            <div class="py-4 min-h-[50vh] sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
+            <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
               <h3 class="sm:text-xl text-green cursor-pointer hover:opacity-75 arrow-container flex gap-4 items-center">
                 Greenpill Podcast NFTs
               </h3>
-              <p class="content !leading-loose sm:text-lg text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p class="content !leading-loose sm:text-lg text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
             </div>
-            <div class="py-4 min-h-[50vh] sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
+            <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
               <h3 class="sm:text-xl text-green cursor-pointer hover:opacity-75 arrow-container flex gap-4 items-center">
                 Greenpill v1 book
               </h3>
-              <p class="content !leading-loose sm:text-lg text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p class="content !leading-loose sm:text-lg text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
               </p>
             </div>
-            <div class="py-4 min-h-[50vh] sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
+            <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
               <h3 class="sm:text-xl text-green cursor-pointer hover:opacity-75 arrow-container flex gap-4 items-center">
                 Local Chapters
               </h3>
-              <p class="content !leading-loose sm:text-lg text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              <p class="content !leading-loose sm:text-lg text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut
                 labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
               </p>
             </div>
-            <div class="py-4 min-h-[50vh] sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
+            <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
               <h3 class="sm:text-xl text-green cursor-pointer hover:opacity-75 arrow-container flex gap-4 items-center">
                 Animated series
                 <div class="arrow origin-center transition-all">
                 </div>
               </h3>
-              <p class="content !leading-loose sm:text-lg text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p class="content !leading-loose sm:text-lg text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
               </p>
             </div>
-            
+
           </div>
-          <img src="./src/images/resource1.png" id="resource-img" class="sticky top-[30vh] z-10 transition-all w-[80px] h-[80px] sm:w-[250px] sm:h-[250px] lg:w-[434px] lg:h-[434px]" alt="" width="434" height="434" />
+          <img src="./src/images/resource1.png" id="resource-img"
+            class="hidden sm:block sticky top-[30vh] z-10 transition-all w-[80px] h-[80px] sm:w-[250px] sm:h-[250px] lg:w-[434px] lg:h-[434px]"
+            alt="" width="434" height="434" />
         </div>
       </section>
 
@@ -312,8 +359,10 @@
         <div class="flex gap-4 sm:gap-[10%] justify-center items-center mb-12">
           <div class="flex flex-col gap-0 sm:gap-4 lg:gap-6 xl:shrink-0">
             <!-- discord -->
-            <a href="https://t.me/+g9TM8i7GpxAzMGUx" target="_blank" class="link flex gap-6 items-center text-green hover:text-[var(--mid-green)] transition-all">
-              <svg class="sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] shrink-0" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <a href="https://discord.gg/NDAzFSvJdx" target="_blank"
+              class="link flex gap-6 items-center text-green hover:text-[var(--mid-green)] transition-all">
+              <svg class="sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] shrink-0" width="60" height="60" viewBox="0 0 60 60"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M43.5305 17.5125C40.9298 16.3218 38.1844 15.4771 35.3642 15C34.9783 15.6899 34.6291 16.3997 34.3181 17.1264C31.3141 16.6737 28.2593 16.6737 25.2553 17.1264C24.9441 16.3997 24.5949 15.69 24.2092 15C21.3872 15.4812 18.64 16.3279 16.0367 17.5187C10.8686 25.165 9.46759 32.6214 10.1681 39.972C13.1947 42.2082 16.5823 43.9088 20.1837 45C20.9946 43.9093 21.7121 42.7523 22.3287 41.5411C21.1576 41.1037 20.0273 40.564 18.9508 39.9284C19.2341 39.7229 19.5112 39.5112 19.7789 39.3057C22.9112 40.7788 26.33 41.5425 29.7914 41.5425C33.2528 41.5425 36.6715 40.7788 39.8038 39.3057C40.0747 39.5268 40.3518 39.7385 40.632 39.9284C39.5534 40.5651 38.421 41.1058 37.2478 41.5442C37.8636 42.7548 38.5812 43.9109 39.3929 45C42.9973 43.9132 46.3875 42.2133 49.4147 39.9751C50.2366 31.4508 48.0106 24.0629 43.5305 17.5125ZM23.216 35.4514C21.264 35.4514 19.6513 33.6799 19.6513 31.5006C19.6513 29.3213 21.2079 27.5342 23.2098 27.5342C25.2117 27.5342 26.8119 29.3213 26.7777 31.5006C26.7434 33.6799 25.2054 35.4514 23.216 35.4514ZM36.3667 35.4514C34.4116 35.4514 32.8051 33.6799 32.8051 31.5006C32.8051 29.3213 34.3617 27.5342 36.3667 27.5342C38.3717 27.5342 39.9595 29.3213 39.9252 31.5006C39.891 33.6799 38.3561 35.4514 36.3667 35.4514Z"
                   fill="currentColor" />
@@ -321,8 +370,11 @@
               <span>Join our Discord</span>
             </a>
             <!-- twitter -->
-            <a href="https://twitter.com/greenpillglobal" target="_blank" class="link flex gap-6 items-center text-green hover:text-[var(--mid-green)] transition-all">
-              <svg class="sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] shrink-0" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- TODO: add link for twitter -->
+            <a href="" target="_blank"
+              class="link flex gap-6 items-center text-green hover:text-[var(--mid-green)] transition-all">
+              <svg class="sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] shrink-0" width="60" height="60" viewBox="0 0 60 60"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M48 18.5509C46.6385 19.1526 45.1753 19.5604 43.64 19.7432C45.2068 18.8056 46.411 17.3217 46.9771 15.5537C45.5101 16.4211 43.886 17.0523 42.1564 17.3919C40.7728 15.9209 38.799 15 36.6162 15C32.4246 15 29.0264 18.3903 29.0264 22.5724C29.0264 23.1667 29.093 23.7444 29.2225 24.2981C22.9147 23.9825 17.3208 20.9668 13.5786 16.386C12.9257 17.5045 12.5501 18.8056 12.5501 20.1935C12.5501 22.8216 13.8894 25.1378 15.9261 26.4962C14.6811 26.4574 13.512 26.116 12.4873 25.5494C12.4873 25.5807 12.4873 25.6121 12.4873 25.6453C12.4873 29.3144 15.1029 32.3743 18.575 33.0701C17.9387 33.2436 17.2672 33.3359 16.5753 33.3359C16.087 33.3359 15.6116 33.2879 15.1473 33.1993C16.1129 36.2076 18.9172 38.3965 22.2376 38.4592C19.6405 40.4912 16.3663 41.7019 12.811 41.7019C12.1987 41.7019 11.5938 41.6669 11 41.5967C14.3593 43.745 18.3493 45 22.6353 45C36.5959 45 44.2319 33.4614 44.2319 23.4528C44.2319 23.1243 44.2245 22.7976 44.2097 22.4728C45.6933 21.4042 46.9789 20.0717 47.9963 18.5528L48 18.5509Z"
                   fill="currentColor" />
@@ -331,8 +383,10 @@
               <span>Subscribe to our Twitter list</span>
             </a>
             <!-- local -->
-            <a href="https://bit.ly/greenpill-your-city" target="_blank" class="link flex gap-6 items-center text-green hover:text-[var(--mid-green)] transition-all">
-              <svg class="sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] shrink-0" width="62" height="61" viewBox="0 0 62 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <a href="https://bit.ly/greenpill-your-city" target="_blank"
+              class="link flex gap-6 items-center text-green hover:text-[var(--mid-green)] transition-all">
+              <svg class="sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] shrink-0" width="62" height="61" viewBox="0 0 62 61"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M24.8786 28.2309L24.8859 28.2296C24.9318 28.224 24.9775 28.2161 25.0226 28.2059C25.0435 28.2018 25.0642 28.1997 25.0844 28.1951C25.1267 28.184 25.1682 28.167 25.2096 28.1521C25.2303 28.1447 25.2521 28.1389 25.2725 28.1302C25.2928 28.1215 25.3386 28.0953 25.3708 28.0794C25.4029 28.0636 25.4225 28.0544 25.447 28.0385C25.4716 28.0226 25.4951 28.003 25.5194 27.9858C25.5436 27.9687 25.5793 27.9431 25.6065 27.9191C25.6065 27.9191 25.6093 27.9143 25.6111 27.9111C25.6316 27.893 25.648 27.8725 25.6674 27.8526C25.6868 27.8326 25.719 27.8019 25.7417 27.7743C25.7645 27.7468 25.7804 27.7217 25.7969 27.6991C25.8135 27.6766 25.836 27.6457 25.8529 27.617C25.8698 27.5883 25.8863 27.5604 25.8975 27.5284C25.9088 27.4965 25.9304 27.4726 25.9364 27.444C25.9424 27.4155 25.9578 27.3764 25.9683 27.3419C25.9789 27.3074 25.9862 27.2913 25.992 27.2649C25.992 27.2649 25.9949 27.2601 25.9968 27.2569C26.0035 27.2213 26.0084 27.1853 26.0114 27.1492C26.0233 27.0914 26.0264 27.0322 26.0204 26.9735C26.0197 26.9379 26.0215 26.9017 26.0178 26.8656C26.0141 26.8294 26.0087 26.8201 26.0052 26.7967C26.0015 26.7734 25.9916 26.7146 25.9796 26.676C25.9742 26.6558 25.9645 26.6355 25.9577 26.6156C25.9446 26.573 25.9291 26.5311 25.911 26.4903L25.9089 26.4828L15.8548 4.98586L29.8183 24.2662L29.8256 24.2704C29.8506 24.3026 29.8773 24.3337 29.9054 24.3634C29.9224 24.3826 29.9372 24.4036 29.955 24.4212C29.9814 24.4457 30.0091 24.4688 30.038 24.4904C30.0604 24.5095 30.0822 24.5314 30.1061 24.5481C30.1299 24.5648 30.1574 24.5772 30.1834 24.5919C30.2095 24.6066 30.2469 24.6278 30.2787 24.6458C30.3105 24.6638 30.326 24.6651 30.3494 24.6751C30.3853 24.6954 30.4253 24.7085 30.4654 24.7216L30.4728 24.7257C30.4967 24.7329 30.5209 24.736 30.5446 24.7419C30.5825 24.7525 30.6209 24.7611 30.6598 24.7677C30.6908 24.7721 30.7222 24.7749 30.7536 24.776C30.7888 24.779 30.8231 24.7835 30.8581 24.7831C30.8931 24.7826 30.9237 24.7787 30.9567 24.776C30.9898 24.7734 31.0239 24.7726 31.0571 24.7679C31.0902 24.7633 31.1271 24.7522 31.1613 24.7439C31.1956 24.7356 31.2163 24.7335 31.2438 24.7256L31.2529 24.7212C31.2864 24.7104 31.3176 24.6961 31.3504 24.6828C31.3833 24.6694 31.4104 24.6603 31.4387 24.6455C31.467 24.6307 31.4825 24.6192 31.5039 24.6068C31.5388 24.5861 31.5754 24.5664 31.6089 24.5428C31.6226 24.5325 31.6352 24.5204 31.648 24.5096C31.6866 24.4792 31.726 24.4473 31.76 24.4155C31.7679 24.4019 31.7813 24.3903 31.7918 24.3781C31.8268 24.3424 31.8594 24.3043 31.8893 24.2641C31.8893 24.2641 31.8893 24.2642 31.8926 24.2586L45.8594 4.98267L35.8058 26.4633C35.778 26.5226 35.7549 26.5839 35.7368 26.6467C35.7341 26.6514 35.7307 26.657 35.7274 26.6626C35.7118 26.7191 35.7004 26.7767 35.6933 26.8348C35.6886 26.8428 35.6909 26.8536 35.6902 26.8639C35.6841 26.9213 35.682 26.9792 35.6839 27.0369L35.686 27.0572C35.6887 27.1131 35.6958 27.1688 35.7074 27.2236C35.7079 27.2291 35.7087 27.2345 35.7098 27.2399L35.712 27.2528C35.7179 27.2795 35.7289 27.305 35.7362 27.3313C35.7434 27.3578 35.7548 27.3994 35.7671 27.4318C35.7794 27.4643 35.7959 27.4917 35.8101 27.5211C35.8243 27.5504 35.8372 27.58 35.8532 27.6082C35.8692 27.6364 35.8931 27.6659 35.9116 27.6933C35.9302 27.7209 35.9456 27.7445 35.9652 27.7683C35.9848 27.7922 36.0181 27.8259 36.0455 27.8531C36.0729 27.8804 36.0774 27.8893 36.0966 27.9065L36.1039 27.9106C36.1347 27.9376 36.1687 27.9611 36.2021 27.9853C36.2242 27.9978 36.2419 28.0174 36.2634 28.0306C36.285 28.0438 36.327 28.0665 36.3587 28.0845C36.3905 28.1025 36.4108 28.114 36.4361 28.1283C36.4613 28.1426 36.4931 28.1477 36.5211 28.1572C36.5547 28.1709 36.5889 28.1828 36.6239 28.193C36.6483 28.1994 36.6751 28.2018 36.7006 28.2066C36.7405 28.2143 36.7808 28.2233 36.8219 28.2273L36.8292 28.2315L60.8555 30.4376L36.8329 32.6474L36.8244 32.6489C36.8096 32.6501 36.7954 32.6538 36.7802 32.6558C36.7351 32.6622 36.6903 32.67 36.6464 32.6802L36.5881 32.6961C36.5481 32.7073 36.5087 32.7205 36.4702 32.7359C36.4534 32.7422 36.4352 32.7491 36.4188 32.7568C36.364 32.7809 36.3112 32.809 36.2607 32.8408C36.2607 32.8408 36.2574 32.8464 36.2555 32.8495C36.2072 32.8805 36.1615 32.9151 36.1186 32.9529C36.1123 32.9569 36.1064 32.9614 36.1009 32.9663C36.0962 32.9743 36.0869 32.9808 36.0793 32.9882C36.0476 33.0181 36.0183 33.0494 35.9888 33.0827C35.9803 33.0971 35.9662 33.1082 35.9553 33.1212C35.9194 33.1661 35.8865 33.2133 35.8569 33.2624C35.8283 33.312 35.8031 33.3635 35.7813 33.4164C35.7728 33.4308 35.7701 33.4483 35.7641 33.4641C35.7498 33.5049 35.7363 33.5463 35.7257 33.5881L35.7171 33.6173C35.7158 33.6246 35.7147 33.6318 35.7141 33.639C35.7024 33.6947 35.6946 33.751 35.6907 33.8078C35.6895 33.8106 35.688 33.8133 35.6861 33.8157C35.6832 33.8745 35.6848 33.9334 35.6908 33.9919C35.6923 34.0097 35.695 34.0272 35.6977 34.0446C35.704 34.0854 35.7125 34.1256 35.7232 34.1654C35.7268 34.1845 35.7317 34.2032 35.7378 34.2216C35.7494 34.2661 35.7639 34.3099 35.7812 34.3525C35.7863 34.3661 35.7901 34.3799 35.7965 34.3931L35.7994 34.4011L45.8567 55.8924L31.8933 36.612L31.8859 36.6079C31.8618 36.5751 31.8337 36.5454 31.8069 36.5153C31.79 36.4962 31.7744 36.4746 31.7566 36.457C31.7387 36.4395 31.7017 36.4101 31.674 36.387C31.6464 36.3639 31.6293 36.3468 31.6055 36.3301C31.5816 36.3134 31.5534 36.3007 31.5281 36.2863C31.4973 36.2668 31.4655 36.2488 31.4328 36.2324C31.4108 36.22 31.3855 36.2131 31.3622 36.2031C31.3263 36.1829 31.2862 36.1698 31.247 36.1572L31.2397 36.153C31.2156 36.1458 31.1914 36.1427 31.1669 36.1363C31.1292 36.1255 31.0907 36.1169 31.0518 36.1106C31.0209 36.1059 30.9903 36.1045 30.958 36.1022C30.9233 36.098 30.8884 36.0957 30.8535 36.0952C30.8197 36.0953 30.7871 36.0992 30.754 36.1017C30.721 36.1044 30.6868 36.1052 30.6537 36.1099C30.6205 36.1146 30.5845 36.1261 30.5494 36.1339C30.5144 36.1417 30.4944 36.1443 30.4678 36.1526L30.4553 36.1573L30.4402 36.1626C30.3861 36.1811 30.3332 36.2031 30.2819 36.2284L30.2637 36.2372C30.2113 36.264 30.161 36.2946 30.1132 36.3287C30.1085 36.3366 30.0969 36.3397 30.089 36.3458C30.0411 36.3809 29.996 36.4194 29.9538 36.4609C29.951 36.4656 29.9477 36.4712 29.9444 36.4768C29.8979 36.5217 29.8549 36.5699 29.8159 36.6212L15.8524 55.8915L25.9107 34.4029C25.9107 34.4029 25.9131 34.3988 25.914 34.3973C25.9335 34.3551 25.948 34.3101 25.9629 34.2664C25.9723 34.2505 25.9777 34.2301 25.9823 34.2114C25.9931 34.1688 26.0016 34.1256 26.0075 34.082C26.0113 34.0608 26.0167 34.0405 26.0193 34.0196C26.0237 33.9827 26.0222 33.9446 26.0237 33.9072C26.0251 33.8697 26.0271 33.8517 26.0258 33.8244C26.0246 33.797 26.0181 33.7636 26.0132 33.7332C26.0084 33.7028 26.0066 33.6634 25.9998 33.6288C25.9998 33.6288 26.0022 33.6248 25.9979 33.6192C25.992 33.5925 25.9809 33.567 25.9737 33.5406C25.9664 33.5142 25.9551 33.4726 25.9427 33.4401C25.9304 33.4076 25.9139 33.3803 25.9002 33.3501C25.8865 33.32 25.8731 33.2912 25.8566 33.2638C25.8402 33.2364 25.8181 33.2058 25.7987 33.1778C25.7794 33.1498 25.764 33.1262 25.7444 33.1024C25.7247 33.0786 25.6909 33.0456 25.6635 33.0184C25.6362 32.9912 25.6316 32.9822 25.6125 32.965L25.6051 32.9609C25.5739 32.9342 25.5411 32.9092 25.5069 32.8861C25.4849 32.8737 25.4672 32.8541 25.4456 32.8409C25.4148 32.8213 25.383 32.8033 25.3503 32.787C25.325 32.7727 25.299 32.758 25.2729 32.7432C25.2469 32.7285 25.2173 32.7234 25.1884 32.7134C25.1595 32.7035 25.12 32.6876 25.0852 32.6786C25.0504 32.6695 25.0339 32.6698 25.009 32.6642C24.984 32.6586 24.9287 32.6474 24.8877 32.6434L24.8803 32.6393L0.85553 30.4341L24.8786 28.2309Z"
                   fill="currentColor" stroke="#254D32" stroke-miterlimit="10" stroke-linejoin="round" />
@@ -356,11 +410,13 @@
             </a>
           </div>
 
-          <img src="./src/images/footer-img-sequence/01.png" id="footer-img" alt="" width="432" height="432" class="w-[80px] h-[80px] lg:w-[432px] lg:h-[432px]" />
+          <img src="./src/images/footer-img-sequence/01.png" id="footer-img" alt="" width="432" height="432"
+            class="w-[80px] h-[80px] lg:w-[432px] lg:h-[432px]" />
         </div>
 
         <footer class="pb-6">
-          <a href="https://supermodular.xyz/" target="_blank" class="group flex justify-center gap-2 items-center w-fit m-auto">
+          <a href="https://supermodular.xyz/" target="_blank"
+            class="group flex justify-center gap-2 items-center w-fit m-auto">
             <div class="relative">
               <img src="./src/images/supermodular-logo.svg" alt="supermodular logo" width="32" height="32"
                 class="z-10 relative group-hover:opacity-0 transition-opacity duration-300" />
@@ -393,17 +449,15 @@
         </footer>
       </section>
     </div>
-    
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Observer.min.js"></script>
 
   <script>
     const width = 758;
     const height = 400;
-    
+
     const img = document.getElementById('map');
     const canvas = document.getElementById('canvas');
     const canvas2 = document.getElementById('canvas2');
@@ -415,7 +469,7 @@
     const mapSelectedLink = document.querySelector('.map-selected-link');
     const mapSelectedName = document.querySelector('.map-selected-name');
     const mapSelectedMoreText = document.getElementById('more-text');
-    
+
     img.onload = function () {
       ctx.drawImage(img, 0, 0, width, height);
     };
@@ -426,9 +480,9 @@
     const getCoords = (latitude, longitude) => {
       const x = (width) * (180 + longitude) / 360 - 25;
       const y = (height) * (90 - latitude) / 180 + 45;
-      return {x, y};
-    } 
-    const getPositionFromCoords = () => {}
+      return { x, y };
+    }
+    const getPositionFromCoords = () => { }
 
     const LOCATION_RADIUS = 6;
 
@@ -455,7 +509,7 @@
       const container = canvas2.getBoundingClientRect();
       const x = (event.clientX - container.left);
       const y = (event.clientY - container.top);
-      return {x, y};
+      return { x, y };
     };
 
     const isMapElement = (e) => {
@@ -468,8 +522,8 @@
 
       });
       return foundElement !== -1 ? foundElement : false;
-    }; 
-    
+    };
+
     const handleMapClick = (e) => {
       const element = isMapElement(e);
       if (element) {
@@ -482,10 +536,10 @@
           mapSelectedMoreText.style.display = 'none';
           mapSelectedLink.style.pointerEvents = 'none';
         }
-        
+
         mapSelectedName.innerText = element.name;
-        
-        const {x, y} = getCoords(element.lat, element.long);
+
+        const { x, y } = getCoords(element.lat, element.long);
         mapSelectedLink.style.top = `${y}px`;
         mapSelectedLink.style.left = `${x}px`;
 
@@ -493,22 +547,21 @@
         setTimeout(() => {
           mapSelectedLink.style.opacity = 1;
           mapSelectedLink.style.scale = 1;
-          
+
         }, 1);
-      }
-    }
+      };
+    };
 
     const handleMapMouse = (e) => {
-        const elem = isMapElement(e);
-        if (elem) canvas2.style.cursor = 'pointer';
-      }
+      const elem = isMapElement(e);
+      if (elem) canvas2.style.cursor = 'pointer';
+    };
 
-    
     canvas2.addEventListener('click', (e) => handleMapClick(e), false);
     canvas2.addEventListener('mousemove', handleMapMouse);
   </script>
 
-  <script>
+  <!-- <script>
     const arrows = document.querySelectorAll('.arrow');
     const arrowContainers = document.querySelectorAll('.arrow-container');
     const contents = document.querySelectorAll('.content');
@@ -519,56 +572,20 @@
       });
     })
 
-  </script>
+  </script> -->
 
   <script>
+    let isMobile = true;
+    const mobileMediaQuery = window.matchMedia("(max-width: 800px)");
+
     // image sequence 
-      gsap.registerPlugin(ScrollTrigger, Observer);
-      // const imgSequenceCanvas = document.getElementById("hero");
-      // const context = imgSequenceCanvas.getContext("2d");
-      // const section = document.querySelector(".img-sequence-container");
-      // const frameCount = 38;
-      const getImgIndex = (index) => {
-        const x = `0${index + 1}`;
-        const y = x.slice(x.length - 2);
-        return y;
-      }
-      const currentFrame = index => `./src/images/img-sequence/${getImgIndex(index)}.png`;
-      // imgSequenceCanvas.width = 329;
-      // imgSequenceCanvas.height = 329;
-      // const images = [];
-      // const unis = {
-      //   frame: 0
-      // };
-
-      // for (let i = 0; i < frameCount; i++) {
-      //   const img = new Image();
-      //   img.src = currentFrame(i);
-      //   images.push(img);
-      // }
-
-      // gsap.to(unis, {
-      //   frame: frameCount - 1,
-      //   snap: "frame",
-      //   ease: "none",
-      //   // duration: 1,
-      //   scrollTrigger: {
-      //     trigger: section,
-      //     fastScrollEnd: true,
-      //     pin: true,
-      //     start: -5,
-      //     scrub: 0.3,
-      //     end: "+=200%"
-      //   },
-      //   onUpdate: render
-      // });
-
-      // images[0].onload = render;
-
-      // function render() {
-      //   context.clearRect(0, 0, imgSequenceCanvas.width, imgSequenceCanvas.height);
-      //   context.drawImage(images[unis.frame], 0, 0, 329, 329);
-      // }
+    gsap.registerPlugin(ScrollTrigger, Observer);
+    const getImgIndex = (index) => {
+      const x = `0${index + 1}`;
+      const y = x.slice(x.length - 2);
+      return y;
+    }
+    const currentFrame = index => `./src/images/img-sequence/${getImgIndex(index)}.png`;
   </script>
 
   <!-- mouse move img seqence -->
@@ -604,141 +621,10 @@
   </script>
 
   <script>
-    // slides
-    const slides = document.querySelector('.slides');
-    let isMobile = true;
-    const mobileMediaQuery = window.matchMedia("(max-width: 800px)");
-    let animationObj;
-    let currentIndex = -1;
-    let animating, intentObserver;
-    let swipePanels = gsap.utils.toArray(".slide");
-
-    const initSlides = () => {
-      gsap.set(".x-100", { xPercent: 100 });
-
-      gsap.set(swipePanels, {
-        zIndex: i => i + 30
-      });
-
-      intentObserver = ScrollTrigger.observe({
-        type: "wheel,touch",
-        onUp: () => !animating && gotoPanel(currentIndex + 1, true),
-        onDown: () => !animating && gotoPanel(currentIndex - 1, false),
-        wheelSpeed: -1,
-        tolerance: 10,
-        preventDefault: true,
-        scrollSpeed: 1,
-        onPress: self => {
-          ScrollTrigger.isTouch && self.event.preventDefault()
-        }
-      })
-      intentObserver.disable();
-
-      ScrollTrigger.create({
-        trigger: ".slides",
-        pin: true,
-        start: "top top",
-        end: "+=1",
-        onEnter: (self) => {
-          intentObserver.enable();
-          gotoPanel(currentIndex + 1, true);
-        },
-        onEnterBack: () => {
-          intentObserver.enable();
-          gotoPanel(currentIndex - 1, false);
-        }
-      })
-    };
-
-    function buildConditionalTween(mobileMediaQuery) {
-      if (mobileMediaQuery.matches) {
-        isMobile = true;
-        slides.classList.remove('active');
-        swipePanels.forEach(panel => panel.classList.remove('active'));
-        intentObserver && intentObserver.disable();
-        animationObj && animationObj.kill();
-      } else {
-        slides.classList.add('active');
-        swipePanels.forEach(panel => panel.classList.add('active'));
-        isMobile = false;
-        initSlides();
-      }
-    }
-    buildConditionalTween(mobileMediaQuery);
-    mobileMediaQuery.addListener(buildConditionalTween);
-
-    // handle the panel swipe animations
-    function gotoPanel(index, isScrollingDown) {
-      animating = true;
-      // return to normal scroll if it's the end or the start
-      if ((index === swipePanels.length && isScrollingDown) || (index === -1 && !isScrollingDown)) {
-
-        let target = index;
-        gsap.to(target, {
-          // xPercent: isScrollingDown ? -100 : 0,
-          duration: 0.00,
-          onComplete: () => {
-            animating = false;
-            isScrollingDown && intentObserver.disable();
-          }
-        });
-        return;
-      }
-
-      let target = isScrollingDown ? swipePanels[index] : swipePanels[currentIndex];
-      swipePanels.forEach((panel, i) => {
-        if (i < index && isScrollingDown) panel.style.opacity = 0;
-        if (!isScrollingDown) {
-          if (i == index) panel.style.opacity = 1;
-          // panel.style.opacity = i > index ? 0 : 1}
-        }
-      });
-
-      animationObj = gsap.to(target, {
-        xPercent: isScrollingDown ? 0 : 100,
-        duration: 1.2,
-        onComplete: () => {
-          animating = false;
-        }
-      });
-      currentIndex = index;
-    }
-  </script>
-
-  <script>
     // mobile menu
 
     const menuIcon = document.getElementById('mobile-menu-icon');
     const menu = document.getElementById('mobile-menu');
-    const menuItems = document.querySelectorAll('#mobile-menu a');
-
-    const handleSelectMenu = (index, sectionId) => {
-      if (window.innerWidth < 800) return;
-      if (index <= 1) {
-        // book or podcast
-        for (let i = currentIndex; i < index + 3; i++) {
-          gotoPanel(i, true);
-        }
-      } else {
-        for (let i = currentIndex; i < swipePanels.length; i++) {
-          gotoPanel(i, true);
-        }
-        
-        gsap.to(swipePanels.length, {
-          duration: 0.00,
-          onComplete: () => {
-            animating = false;
-            intentObserver.disable();
-          }
-        });
-        const section = document.getElementById(sectionId);
-        const sectionStart = section.getBoundingClientRect().top;
-        window.scrollTo(0, sectionStart)
-      }
-    }
-    menuItems.forEach((menuItem, index) => {
-      menuItem.addEventListener('click', () => handleSelectMenu(index, menuItem.dataset.section))
-    })
 
     const handleMenuClick = () => {
       if (menu.style.display === 'block') {
@@ -746,19 +632,12 @@
       } else {
         menu.style.display = 'block';
       }
-      
+
     }
     menuIcon.addEventListener('click', handleMenuClick);
 
     const goToTop = () => {
-      if (currentIndex == 0) return;
       window.scrollTo(0, 0);
-      if (isMobile) return;
-  
-      for (let i = currentIndex; i >= 0 ; i--) {
-        gotoPanel(i, false);
-      }
-      swipePanels[0].style.opacity = 1;
     }
 
     const logo = document.getElementById('logo');
@@ -767,39 +646,41 @@
 
   <script>
     // resources
-    const isElementXPercentInViewport = function (el, percentVisible) {
-      let
-        rect = el.getBoundingClientRect(),
-        windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+    if (!window.innerWidth < 640) {
+      const isElementXPercentInViewport = function (el, percentVisible) {
+        let
+          rect = el.getBoundingClientRect(),
+          windowHeight = (window.innerHeight || document.documentElement.clientHeight);
 
-      return !(
-        Math.floor(100 - (((rect.top >= 0 ? 0 : rect.top) / +-rect.height) * 100)) < percentVisible ||
-        Math.floor(100 - ((rect.bottom - windowHeight) / rect.height) * 100) < percentVisible
-      )
-    };
+        return !(
+          Math.floor(100 - (((rect.top >= 0 ? 0 : rect.top) / +-rect.height) * 100)) < percentVisible ||
+          Math.floor(100 - ((rect.bottom - windowHeight) / rect.height) * 100) < percentVisible
+        )
+      };
 
-    const resources = document.querySelectorAll('.resource');
-    const resourceImg = document.getElementById('resource-img');
+      const resources = document.querySelectorAll('.resource');
+      const resourceImg = document.getElementById('resource-img');
 
-    window.addEventListener('scroll', () => {
-      resources.forEach((resource, index) => {
-         if (isElementXPercentInViewport(resource, 80)) {
-          const newSrc = `./src/images/resource${index + 1}.png`;
-          const prevSrcStartIndex = resourceImg.src.indexOf('/src');
-          const prevSrc = resourceImg.src.slice(prevSrcStartIndex);
-          const x = newSrc.slice(1);
-          if (x !== prevSrc) {
-            resourceImg.style.opacity = 0;
-            resourceImg.style.scale = 0.8;
-            setTimeout(() => {
-              resourceImg.src = `./src/images/resource${index + 1}.png`
-              resourceImg.style.opacity = 1;
-              resourceImg.style.scale = 1;
-            }, 150);
+      window.addEventListener('scroll', () => {
+        resources.forEach((resource, index) => {
+          if (isElementXPercentInViewport(resource, 80)) {
+            const newSrc = `./src/images/resource${index + 1}.png`;
+            const prevSrcStartIndex = resourceImg.src.indexOf('/src');
+            const prevSrc = resourceImg.src.slice(prevSrcStartIndex);
+            const x = newSrc.slice(1);
+            if (x !== prevSrc) {
+              resourceImg.style.opacity = 0;
+              resourceImg.style.scale = 0.8;
+              setTimeout(() => {
+                resourceImg.src = `./src/images/resource${index + 1}.png`
+                resourceImg.style.opacity = 1;
+                resourceImg.style.scale = 1;
+              }, 150);
+            }
           }
-         }
-      })
-    })
+        });
+      });
+    }
 
 
     // dropdown buttons
@@ -807,12 +688,13 @@
     const dropdownButtonsContent = document.querySelectorAll('.dropdown-btn-content');
     const dropdownButtonsCTA = document.querySelectorAll('.dropdown-btn-shop');
     let timeoutId;
-  
+
     const openDropdown = (i) => {
       clearTimeout(timeoutId);
       dropdownButtonsContent[i].style.display = 'flex';
       setTimeout(() => {
-        dropdownButtonsContent[i].style.height = dropdownButtonsContent[i].dataset.height;
+        const elemHeight = !isMobile ? `${dropdownButtonsContent[i].dataset.height}px` : `${dropdownButtonsContent[i].dataset.height * 0.85}px`;
+        dropdownButtonsContent[i].style.height = elemHeight;
         dropdownButtonsContent[i].style.opacity = '1';
       }, 1);
     };
@@ -824,14 +706,13 @@
       setTimeout(() => {
         dropdownButtonsContent[i].style.display = 'none';
       }, 300);
-      
     };
 
     dropdownButtons.forEach((btn, i) => {
       btn.addEventListener('mouseover', () => openDropdown(i));
       btn.addEventListener('mouseleave', () => closeDropdown(i));
-      btn.querySelector('button').addEventListener('click', () => dropdownButtonsContent[i].style.display == 'flex' ? closeDropdown(i) : openDropdown(i));
-      
+      // btn.querySelector('button').addEventListener('click', () => dropdownButtonsContent[i].style.display == 'flex' ? closeDropdown(i) : openDropdown(i));
+
       const selected = btn.querySelector('.dropdown-btn-selected');
       const options = btn.querySelectorAll('.dropdown-btn-option');
 
@@ -846,23 +727,22 @@
           option.dataset.link = prevSelectedLink;
           dropdownButtonsCTA[i].href = selected.dataset.link;
         })
-      })
-    
+      });
     });
-    
   </script>
 
   <!-- parallax bg -->
   <script>
     gsap.to(".parallax-bg", {
-        scrollTrigger: {
-          scrub: true
-        },
-        // y: (i, target) => -ScrollTrigger.maxScroll(window) * target.dataset.speed,
-        y: window.innerHeight,
-        x: (i, target) => target.dataset.movex,
-        // ease: "none"
-      });
+      scrollTrigger: {
+        scrub: true
+      },
+      // y: (i, target) => -ScrollTrigger.maxScroll(window) * target.dataset.speed,
+      y: window.innerHeight,
+      x: (i, target) => target.dataset.movex,
+      // ease: "none"
+    });
   </script>
 </body>
+
 </html>

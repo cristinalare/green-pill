@@ -786,7 +786,7 @@
       clearTimeout(timeoutId);
       dropdownButtonsContent[i].style.display = 'flex';
       setTimeout(() => {
-        const elemHeight = !isMobile.matches ? `${dropdownButtonsContent[i].dataset.height}px` : `${dropdownButtonsContent[i].dataset.height * 0.7}px`;
+        const elemHeight = window.innerWidth > 800 ? `${dropdownButtonsContent[i].dataset.height}px` : `${dropdownButtonsContent[i].dataset.height * 0.85}px`;
         dropdownButtonsContent[i].style.height = elemHeight;
         dropdownButtonsContent[i].style.opacity = '1';
       }, 1);

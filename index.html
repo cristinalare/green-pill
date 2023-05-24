@@ -352,7 +352,7 @@
                 </i>
               </p>
             </div>
-            <div class="py-4 min-h-[50vh] sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
+            <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
               <h3 class="sm:text-xl font-bold text-[var(--mid-green)] cursor-pointer hover:opacity-75 arrow-container flex gap-4 items-center">
                 Partner
                 <div class="arrow origin-center transition-all">
@@ -430,7 +430,7 @@
             class="w-[80px] h-[80px] lg:w-[432px] lg:h-[432px]" />
         </div>
 
-        <footer class="pb-6">
+        <footer class="pb-12 sm:pb-6">
           <a href="https://supermodular.xyz/" target="_blank"
             class="group flex justify-center gap-2 items-center w-fit m-auto">
             <div class="relative">
@@ -641,8 +641,9 @@
 
     const menuIcon = document.getElementById('mobile-menu-icon');
     const menu = document.getElementById('mobile-menu');
+    const menuItems = document.querySelector('#menu-menu ul');
 
-    const handleMenuClick = () => {
+    const toggleMenuClick = () => {
       if (menu.style.display === 'block') {
         menu.style.display = 'none';
       } else {
@@ -650,7 +651,8 @@
       }
 
     }
-    menuIcon.addEventListener('click', handleMenuClick);
+    menuIcon.addEventListener('click', toggleMenuClick);
+    menuItems.addEventListener('click', toggleMenuClick);
 
     const goToTop = () => {
       window.scrollTo(0, 0);

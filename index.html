@@ -574,6 +574,8 @@
     };
 
     canvas2.addEventListener('click', (e) => handleMapClick(e), false);
+    canvas2.addEventListener('touchstart', (e) => handleMapClick(e), false);
+    
     canvas2.addEventListener('mousemove', handleMapMouse);
   </script>
 
@@ -711,7 +713,7 @@
       clearTimeout(timeoutId);
       dropdownButtonsContent[i].style.display = 'flex';
       setTimeout(() => {
-        const elemHeight = !isMobile ? `${dropdownButtonsContent[i].dataset.height}px` : `${dropdownButtonsContent[i].dataset.height * 0.85}px`;
+        const elemHeight = !isMobile ? `${dropdownButtonsContent[i].dataset.height}px` : `${dropdownButtonsContent[i].dataset.height * 0.8}px`;
         dropdownButtonsContent[i].style.height = elemHeight;
         dropdownButtonsContent[i].style.opacity = '1';
       }, 1);

@@ -675,6 +675,7 @@
 
   <script>
     // resources
+    let resourcesImgTimeoutId;
     if (!window.innerWidth < 640) {
       const isElementXPercentInViewport = function (el, percentVisible) {
         let
@@ -698,9 +699,10 @@
             const prevSrc = resourceImg.src.slice(prevSrcStartIndex);
             const x = newSrc.slice(1);
             if (x !== prevSrc) {
+              if (resourcesImgTimeoutId) clearTimeout(resourcesImgTimeoutId);
               resourceImg.style.opacity = 0;
               resourceImg.style.scale = 0.8;
-              setTimeout(() => {
+              resourcesImgTimeoutId = setTimeout(() => {
                 resourceImg.src = `./src/images/resource${index + 1}.png`
                 resourceImg.style.opacity = 1;
                 resourceImg.style.scale = 1;

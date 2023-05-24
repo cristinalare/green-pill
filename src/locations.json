@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Los Angeles",
+    "lat": 34.09,
+    "long": -118.3,
+    "link": "https://twitter.com/Greenpill_LA"
+  },
+  {
+    "name": "India",
+    "lat": 21,
+    "long": 78,
+    "link": "https://www.refiindia.com/green-pill-festival"
+  },
+  {
+    "name": "Czech Republic",
+    "lat": 50,
+    "long": 14.4,
+    "link": ""
+  },
+  {
+    "name": "Türkiye",
+    "lat": 40,
+    "long": 33,
+    "link": ""
+  },
+  {
+    "name": "Koh Pha Ngan",
+    "lat": 9.75,
+    "long": 100,
+    "link": ""
+  },
+  {
+    "name": "West Africa",
+    "lat": 13.53,
+    "long": -2.46,
+    "link": ""
+  },
+  {
+    "name": "Indonesia",
+    "lat": -6.2,
+    "long": 106.81,
+    "link": "https://twitter.com/Greenpillindo"
+  },
+  {
+    "name": "Berlin",
+    "lat": 52.52,
+    "long": 13.4,
+    "link": ""
+  },
+  {
+    "name": "Canada",
+    "lat": 50,
+    "long": -85,
+    "link": "https://puddle-caboc-f78.notion.site/GreenPill-Ottawa-81a0b31184f442b380d3bebfb8259a4f"
+  },
+  {
+    "name": "Mexico City",
+    "lat": 19.4,
+    "long": -99,
+    "link": ""
+  },
+  {
+    "name": "Mexico",
+    "lat": 23,
+    "long": -103,
+    "link": "https://chivalrous-trollius-d3a.notion.site/GreenPill-M-xico-aba4e47e32a541f48d793c83fb126a08"
+  },
+  {
+    "name": "Japan",
+    "lat": 36.2,
+    "long": 138,
+    "link": "https://bit.ly/greenpilljapan"
+  },
+  {
+    "name": "Germany",
+    "lat": 51,
+    "long": 10,
+    "link": "https://twitter.com/GreenPillGER"
+  },
+  {
+    "name": "Korea",
+    "lat": 37.53,
+    "long": 127,
+    "link": ""
+  },
+  {
+    "name": "Yucatan Peninsula",
+    "lat": 20.4,
+    "long": -89.13,
+    "link": ""
+  },
+  {
+    "name": "New York",
+    "lat": 40.73,
+    "long": -73.93,
+    "link": "https://www.notion.so/GreenPill-NYC-ac0977ffe2cf4bd39983c62d663c2119?pvs=4"
+  },
+  {
+    "name": "Boston",
+    "lat": 42.36,
+    "long": -71,
+    "link": "https://twitter.com/GreenPillBoston"
+  },
+  {
+    "name": "Denver",
+    "lat": 39.74,
+    "long": -104.9,
+    "link": "https://twitter.com/GreenpillDenver"
+  },
+  {
+    "name": "Suriname",
+    "lat": 3.91,
+    "long": -56.02,
+    "link": "https://twitter.com/GreenPill_SR"
+  },
+  {
+    "name": "China",
+    "lat": 39.9,
+    "long": 116.3,
+    "link": "https://greenpillcn.notion.site/GreenPill-04ea0224d3cd4fe9b5181b6dd22d02b4"
+  }
+]

@@ -518,6 +518,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
 
   <script>
+    let locations;
+    let mapLoaded = false;
+    let locationsLoaded = false;
+    fetch("./src/locations.json")
+      .then(response => response.json())
+      .then(json => {
+        locations = json;
+        if (mapLoaded) {
+          createLocations();
+          locationsLoaded = true;
+        }
+      });
+
     let width = 758;
     let height = 400;
 
@@ -546,7 +559,12 @@
     img.addEventListener(
       "load",
       () => {
+        if (!locationsLoaded && locations) {
+          createLocations();
+        }
         ctx.drawImage(img, 0, 0, width, height);
+
+        mapLoaded = true;
       },
       false
     );
@@ -561,14 +579,6 @@
     const getPositionFromCoords = () => { }
 
     const LOCATION_RADIUS = 6;
-
-    let locations;
-    fetch("./src/locations.json")
-      .then(response => response.json())
-      .then(json => {
-        locations = json;
-        createLocations();
-      });
 
     const createLocations = () => {
       locations.forEach(location => {

@@ -799,6 +799,9 @@ video {
 .h-screen {
   height: 100vh;
 }
+.h-\[181px\] {
+  height: 181px;
+}
 .max-h-\[230px\] {
   max-height: 230px;
 }
@@ -841,6 +844,9 @@ video {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+.w-\[343px\] {
+  width: 343px;
 }
 .max-w-3xl {
   max-width: 48rem;

@@ -6,6 +6,10 @@
   --mid-green: #4FB477;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 p {
   color: white;
 }

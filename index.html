@@ -117,16 +117,12 @@
           <div class="relative flex justify-center w-fit m-auto" id="map-container">
             <canvas id="canvas" width="758" height="400"
               class="flex justify-center z-10 w-[758px] h-[400px] max-w-full h-auto"></canvas>
-            <canvas id="canvas2" width="758" height="400"
-              class=" absolute top-0 left-0 z-20 w-[758px] h-[400px] max-w-full h-auto"></canvas>
-            <!-- <div class="absolute left-[104px] top-[170px] bg-red-400 w-4 h-4 -translate-x-2 -translate-y-2"></div> -->
             <a target="_blank"
               class="map-selected-link hidden opacity-0 group scale-75 hover:translate-x-1 hover:translate-y-1 cursor-pointer transition-all duration-300 absolute top-0 left-0 right-0 bg-green rounded-full w-24 h-24 flex-col items-center justify-center z-30">
               <p class="map-selected-name text-black text-center shrink-0"></p>
               <span id="more-text"
                 class="group-hover:underline text-xs leading-tight text-black shrink-0 w-fit opacity-70">More -></span>
             </a>
-            <!-- <div class="absolute left-[105px] top-[169px] bg-green rounded-full w-4 h-4 -translate-x-2 -translate-y-2"></div> -->
           </div>
         </div>
       </section>
@@ -180,7 +176,7 @@
                     </button>
                     <div
                       class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300"
-                      data-height="150">
+                      data-height="120">
                       <a class="link !font-bold dropdown-btn-option"
                         data-link="https://www.blurb.com/bookstore/invited/9502747/c7ff865edc08edd6b595c5a9bf5bd613117953e7">
                         Softcover
@@ -234,7 +230,7 @@
                     </button>
                     <div
                       class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300"
-                      data-height="50">
+                      data-height="40">
                       <a class="link !font-bold dropdown-btn-option"
                         data-link="https://www.blurb.com/b/11120667-impactdaos">
                         Softcover
@@ -294,16 +290,16 @@
           class="absolute z-0 top-[10vh] left-[15vw] parallax-bg" />
         <img data-speed="-1.1" data-movex="-200" src="./src/images/background/bg-el2.png" width="100" height="100" alt=""
           class="absolute z-0 top-[70vh] right-0 parallax-bg" />
-        <h2 class="font-volkhov text-xl lg:text-3xl text-yellow">Participate</h2>
+        <h2 class="font-volkhov text-xl lg:text-3xl text-yellow mb-4">Participate</h2>
         <div class="flex gap-2 sm:gap-[10%] justify-center relative h-fit">
           <div class="divide-y divide-yellow">
             <!-- beginner -->
             <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
-              <h3 class="text-lg sm:text-2xl font-volkhov text-[var(--mid-green)] mb-6">
+              <h3 class="text-lg sm:text-2xl text-yellow mb-6">
                 Beginner
               </h3>
               <div class="content flex flex-col gap-2 !leading-loose sm:text-lg text-sm">
-                <div class="flex gap-2 items-center hover:text-green text-yellow group">
+                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
                   <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
@@ -313,7 +309,7 @@
                     Join the Discord
                   </a>
                 </div>
-                <div class="flex gap-2 items-center hover:text-green text-yellow group">
+                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
                   <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -322,7 +318,7 @@
                   </svg>
                   <a href="https://pod.link/1609313639" target="_blank">Subscribe to the podcast</a>
                 </div>
-                <div class="flex gap-2 items-center hover:text-green text-yellow group">
+                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
                   <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -331,7 +327,7 @@
                   </svg>
                   <a href="https://www.youtube.com/@Green_Pill_Podcast" target="_blank">Subscribe to the Youtube</a>
                 </div>
-                <div class="flex gap-2 items-center hover:text-green text-yellow group">
+                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
                   <svg class="group-hover:translate-x-1 transition-all duration-300" width="12" height="8" viewBox="0 0 11 8"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -346,11 +342,11 @@
             </div>
             <!-- intermediate -->
             <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
-              <h3 class="text-lg sm:text-2xl font-volkhov text-[var(--mid-green)] mb-6">
+              <h3 class="text-lg sm:text-2xl text-yellow mb-6">
                 Intermediate
               </h3>
               <div class="content flex flex-col gap-2 !leading-loose sm:text-lg text-sm">
-                <div class="flex gap-2 items-center hover:text-green text-yellow group">
+                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
                   <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -367,11 +363,11 @@
             </div>
             <!-- advanced -->
             <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
-              <h3 class="text-lg sm:text-2xl font-volkhov text-[var(--mid-green)] mb-6">
+              <h3 class="text-lg sm:text-2xl text-yellow mb-6">
                 Advanced
               </h3>
               <div class="content flex flex-col gap-2 !leading-loose sm:text-lg text-xs">
-                <div class="flex gap-2 items-center hover:text-green text-yellow group">
+                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
                   <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -380,7 +376,7 @@
                   </svg>
                   <a href="https://docs.google.com/document/d/1obNKrnOQBECtCGL8-73a6ArKmPPHP2GMrMoPlskUJZM/edit">Join the QF Round</a>
                 </div>
-                <div class="flex gap-2 items-center hover:text-green text-yellow group">
+                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
                   <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -389,7 +385,7 @@
                   </svg>
                   <a href="https://forms.gle/dMKCDqQR1ACXQ2CZ9">Write a local regen guide</a>
                 </div>
-                <div class="flex gap-2 items-center hover:text-green text-yellow group">
+                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
                   <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -404,7 +400,7 @@
             </div>
             <!-- partner -->
             <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
-              <h3 class="text-lg sm:text-2xl font-volkhov text-[var(--mid-green)] mb-6">
+              <h3 class="text-lg sm:text-2xl text-yellow mb-6">
                 Partner
               </h3>
               <div class="content flex flex-col gap-2 !leading-loose sm:text-lg text-sm">
@@ -527,12 +523,10 @@
 
     let scale;
 
-    const img = document.getElementById('map');
+    // const img = document.getElementById('map');
+    const img = new Image();
     const canvas = document.getElementById('canvas');
-    const canvas2 = document.getElementById('canvas2');
-
     const ctx = canvas.getContext('2d');
-    const ctx2 = canvas2.getContext('2d');
 
     window.addEventListener('load', () => {
       const elem = canvas.getBoundingClientRect();
@@ -546,12 +540,18 @@
     const mapSelectedName = document.querySelector('.map-selected-name');
     const mapSelectedMoreText = document.getElementById('more-text');
 
-    img.onload = function () {
-      ctx.drawImage(img, 0, 0, width, height);
-    };
+    // img.onload = function () {
+    //   ctx.drawImage(img, 0, 0, width, height);
+    // };
+    img.addEventListener(
+      "load",
+      () => {
+        ctx.drawImage(img, 0, 0, width, height);
+      },
+      false
+    );
 
-    const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-
+    img.src = "./src/images/map.png"; 
 
     const getCoords = (latitude, longitude) => {
       const x = (width) * (180 + longitude) / 360 - 25;
@@ -573,16 +573,16 @@
     const createLocations = () => {
       locations.forEach(location => {
         const { x, y } = getCoords(location.lat, location.long);
-        ctx2.beginPath();
-        ctx2.arc(x, y, LOCATION_RADIUS, 0, 2 * Math.PI);
-        ctx2.stroke();
-        ctx2.fillStyle = '#C2E812';
-        ctx2.fill();
+        ctx.beginPath();
+        ctx.arc(x, y, LOCATION_RADIUS, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.fillStyle = '#C2E812';
+        ctx.fill();
       });
     };
 
     const getClickCoords = (event) => {
-      const container = canvas2.getBoundingClientRect();
+      const container = canvas.getBoundingClientRect();
       const x = (event.clientX - container.left);
       const y = (event.clientY - container.top);
       return { x, y };
@@ -630,13 +630,13 @@
 
     const handleMapMouse = (e) => {
       const elem = isMapElement(e);
-      if (elem) canvas2.style.cursor = 'pointer';
+      if (elem) canvas.style.cursor = 'pointer';
     };
 
-    canvas2.addEventListener('click', (e) => handleMapClick(e), false);
-    canvas2.addEventListener('touchstart', (e) => handleMapClick(e), false);
+    canvas.addEventListener('click', (e) => handleMapClick(e), false);
+    canvas.addEventListener('touchstart', (e) => handleMapClick(e), false);
     
-    canvas2.addEventListener('mousemove', handleMapMouse);
+    canvas.addEventListener('mousemove', handleMapMouse);
   </script>
 
   <!-- <script>
@@ -776,7 +776,7 @@
       clearTimeout(timeoutId);
       dropdownButtonsContent[i].style.display = 'flex';
       setTimeout(() => {
-        const elemHeight = !isMobile ? `${dropdownButtonsContent[i].dataset.height}px` : `${dropdownButtonsContent[i].dataset.height * 0.7}px`;
+        const elemHeight = !isMobile.matches ? `${dropdownButtonsContent[i].dataset.height}px` : `${dropdownButtonsContent[i].dataset.height * 0.7}px`;
         dropdownButtonsContent[i].style.height = elemHeight;
         dropdownButtonsContent[i].style.opacity = '1';
       }, 1);

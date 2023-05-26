@@ -12,7 +12,7 @@
   <!-- fonts and styles -->
   <link rel="stylesheet" href="./styles.css" rel="stylesheet" />
   <link rel="stylesheet" href="./custom-styles.css" rel="stylesheet" />
-  <link rel="preload" as="image" href="./src/images/img-sequence/01.png">
+  <link rel="preload" as="image" href="./src/images/footer-img-sequence/01.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Volkhov&display=swap"
@@ -98,7 +98,7 @@
             </span>
             <span class="text-xs sm:text-lg lg:text-3xl text-white">(one green pill at a time)</span>
           </h1>
-          <img src="./src/images/img-sequence/01.png" id="hero-img" width="329" height="329"
+          <img src="./src/images/footer-img-sequence/01.png" id="hero-img" width="329" height="329"
             class="w-[150px] h-[150px] sm:w-[230px] sm:h-[230px] lg:w-[329px] lg:h-[329px] " />
         </section>
       </div>
@@ -533,7 +533,7 @@
             </a>
           </div>
 
-          <img src="./src/images/footer-img-sequence/01.png" id="footer-img" alt="" width="432" height="432"
+          <img src="./src/images/img-sequence/01.png" id="footer-img" alt="" width="432" height="432"
             class="w-[80px] h-[80px] lg:w-[432px] lg:h-[432px]" />
         </div>
 
@@ -732,7 +732,7 @@
       const y = x.slice(x.length - 2);
       return y;
     }
-    const currentFrame = index => `./src/images/img-sequence/${getImgIndex(index)}.png`;
+    const currentFrame = index => `./src/images/footer-img-sequence/${getImgIndex(index)}.png`;
   </script>
 
   <!-- mouse move img seqence -->
@@ -756,13 +756,13 @@
       }
 
       // hero
-      const imgIndex = getCorrespImg(percent, 38);
+      const imgIndex = getCorrespImg(percent, 32);
       const src = currentFrame(imgIndex);
       heroImg.src = src;
 
       // footer
-      const footerImgIndex = getCorrespImg(percent, 32);
-      const footerSrc = `./src/images/footer-img-sequence/${getImgIndex(footerImgIndex)}.png`;
+      const footerImgIndex = getCorrespImg(percent, 38);
+      const footerSrc = `./src/images/img-sequence/${getImgIndex(footerImgIndex)}.png`;
       footerImg.src = footerSrc;
     })
   </script>

@@ -2352,6 +2352,10 @@ video {
     flex-direction: row;
   }
 
+  .hover{
+    cursor: pointer;
+  }
+
   .sm\:items-start {
     align-items: flex-start;
   }

@@ -50,10 +50,10 @@
   </script>
 </head>
 
-<body class="relative">
+<body id=body class="relative">
   <div class="font-inter">
     <div id="logo" class="flex justify-start py-3 px-8 absolute top-0 left-0 right-0 cursor-pointer">
-      <div class="flex gap-2 items-center fixed left-8 z-50">
+      <div style="z-index:9999999;" class="flex gap-2 items-center fixed left-8 z-50" onclick=";document.location.href='#body';">
         <img src="./src/images/greenpill-logo.svg" width="40" height="40"
           class="w-[25px] h-[25px] sm:w-[40px] sm:h-[40px]" />
         <h1 class="text-sm sm:text-base text-green font-bold">Green Pill</h1>
@@ -61,7 +61,7 @@
     </div>
 
       <div class="transition-opacity duration-500 sm:min-h-[100vh] flex items-center justify-center">
-        <header class="flex justify-end py-3 px-8 absolute top-0 left-0 right-0">
+        <header class="flex justify-end py-3 px-8 absolute top-0 left-0 right-0" style="position: fixed; top: 0em; z-index: 999;">
           <div class="sm:hidden z-50 text-green hover:text-white cursor-pointer" id="mobile-menu-icon">
             <svg role="img" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
               <title>menu icon</title>
@@ -954,9 +954,10 @@
       }
 
     }
-    menuIcon.addEventListener('click', toggleMenuClick);
-    menuItems.addEventListener('click', toggleMenuClick);
-
+    if(document.body.offsetWidth < 640){
+      menuIcon.addEventListener('click', toggleMenuClick);
+      menuItems.addEventListener('click', toggleMenuClick);
+    }
     const goToTop = () => {
       window.scrollTo(0, 0);
     }

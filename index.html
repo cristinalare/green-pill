@@ -132,7 +132,7 @@
       <section
         class="py-12 transition-opacity duration-500 x-100 pb-6 sm:min-h-screen flex items-center justify-center"
         id="book">
-        <div class="flex xl:gap-10 gap-4 xl:flex-col items-center sm:flex-row flex-col">
+        <div class="flex xl:gap-10 gap-4 items-center flex-col">
           <div>
             <h2 class="font-volkhov text-xl lg:text-3xl text-yellow text-center mb-4">Learn > Books</h2>
             <p class="text-center">Greenpill v0 is all about how crypto could regenerate the world.</p>
@@ -140,15 +140,6 @@
           </div>
 
           <div class="flex gap-6 xl:gap-[5%] justify-center relative">
-
-            <!-- parallax bg elements -->
-            <!-- <img data-speed="-1.5" data-movex="500" src="./src/images/background/bg-el1.png" width="100" height="100" alt=""
-            class="absolute z-0 top-[50vh] parallax-bg" />
-          <img data-speed="-1.3" data-movex="950" src="./src/images/background/bg-el3.png" width="60" height="120" alt=""
-            class="absolute z-0 top-[10vh] left-[15vw] parallax-bg" />
-          <img data-speed="-1.1" data-movex="-300" src="./src/images/background/bg-el2.png" width="100" height="100" alt=""
-            class="absolute z-0 top-[70vh] right-0 parallax-bg" /> -->
-
             <!-- greenpill book -->
             <div class="flex flex-col items-center">
               <img src="./src/images/greenpill-cover.png"
@@ -160,7 +151,7 @@
                     class="relative border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
                     <button class="secondary !border-none flex gap-4 justify-between items-center">
                       <span class="dropdown-btn-selected"
-                        data-link="https://bits.owocki.com/7KuQ9xmr">
+                        data-link="./pdf/green-pill.pdf">
                         Ebook
                       </span>
                       <span>
@@ -189,12 +180,12 @@
                   </div>
 
                   <a class="dropdown-btn-shop"
-                    href="https://bits.owocki.com/7KuQ9xmr" target="_blank">
+                    href="./pdf/green-pill.pdf" target="_blank">
                     <button class="primary">Get it (free)</button>
                   </a>
                 </div>
                 <div class="flex gap-0 xl:gap-4 flex-wrap justify-center xl:flex-row flex-col items-center">
-                  <a href="./src/pdf/green-pill-preview.pdf" download="Green Pill preview"
+                  <a href="./pdf/green-pill-preview.pdf" download="Green Pill preview"
                     class="link sm:text-base text-sm text-center">Download preview</a>
                   <a href="https://gist.github.com/owocki/06c6f1b250c1027d5a06fd7f4f337776" target="_blank"
                     class="link sm:text-base text-sm">
@@ -214,7 +205,7 @@
                   <div
                     class="border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
                     <button class="secondary !border-none flex gap-4 justify-between items-center">
-                      <span class="dropdown-btn-selected" data-link="https://bits.owocki.com/xQuq8vDr">
+                      <span class="dropdown-btn-selected" data-link="./pdf/ImpactDAO.pdf">
                         Ebook
                       </span>
                       <span>
@@ -234,7 +225,7 @@
                     </div>
                   </div>
 
-                  <a class="dropdown-btn-shop" href="https://bits.owocki.com/xQuq8vDr" target="_blank">
+                  <a class="dropdown-btn-shop" href="./pdf/ImpactDAO.pdf" target="_blank">
                     <button class="primary">Get it (free)</button>
                   </a>
                 </div>
@@ -242,143 +233,144 @@
             </div>
           </div>
 
-        <div class="flex xl:gap-10 gap-4 xl:flex-col items-center sm:flex-row flex-col">
-          <div style="max-width: 700px;">
-            <p class="text-center"> "Stuff Crypto OGs know" v0 is teaching people how to survive, thrive, & regenerate in the crypto ecosystem..</p>
-            <p class="text-center"> "Future History of the Open Internet" is a celebration of the history of Open Source Software & how it proved that peer to peer coordination is powerful...</p>
-          </div>
-        </div>
+          <!-- more books -->
+          <button id="more-books-btn"><a class="link">Bonus book content →</a></button>
+          <div id="more-books-content" class="hidden xl:gap-10 gap-4 xl:flex-col items-center sm:flex-row flex-col">
+            <div class="flex xl:gap-10 gap-4 xl:flex-col items-center sm:flex-row flex-col">
+              <div style="max-width: 700px;">
+                <p class="text-center mb-2"> "Stuff Crypto OGs know" v0 is teaching people how to survive, thrive, & regenerate in the crypto ecosystem..</p>
+                <p class="text-center"> "Future History of the Open Internet" is a celebration of the history of Open Source Software & how it proved that peer to peer coordination is powerful...</p>
+              </div>
+            </div>
 
-            <!-- stuff crypto ogs know book -->
-          <div class="flex gap-6 xl:gap-[5%] justify-center relative">
-            <div class="flex flex-col items-center">
-              <img src="./src/images/scok.png" width="244" height="300"
-                class="mb-4 w-auto max-h-[230px] 2xl:w-[244px] 2xl:h-[300px] 2xl:max-h-none"
-                alt="Stuff Crypto Ogs Know book cover" />
-              <div>
-                <div class="flex gap-4 justify-center items-start xl:flex-row flex-col mb-3">
-                  <div
-                    class="border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
-                    <button class="secondary !border-none flex gap-4 justify-between items-center">
-                      <span class="dropdown-btn-selected" data-link="https://bits.owocki.com/bLuOWr84">
-                        Ebook
-                      </span>
-                      <span>
-                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M1 1L5.4 6.86667C6.2 7.93333 7.8 7.93333 8.6 6.86667L10 5L13 1" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                      </span>
-                    </button>
-                    <div
-                      class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300"
-                      data-height="40">
-                      <a class="link !font-bold dropdown-btn-option"
-                        data-link="https://www.blurb.com/b/11476889-stuff-crypto-ogs-know">
-                        Softcover
+                <!-- stuff crypto ogs know book -->
+              <div class="flex gap-6 xl:gap-[5%] justify-center relative">
+                <div class="flex flex-col items-center">
+                  <img src="./src/images/scok.png" width="244" height="300"
+                    class="mb-4 w-auto max-h-[230px] 2xl:w-[244px] 2xl:h-[300px] 2xl:max-h-none"
+                    alt="Stuff Crypto Ogs Know book cover" />
+                  <div>
+                    <div class="flex gap-4 justify-center items-start xl:flex-row flex-col mb-3">
+                      <div
+                        class="border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
+                        <button class="secondary !border-none flex gap-4 justify-between items-center">
+                          <span class="dropdown-btn-selected" data-link="./pdf/Crypto_OG_Book.pdf">
+                            Ebook
+                          </span>
+                          <span>
+                            <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1 1L5.4 6.86667C6.2 7.93333 7.8 7.93333 8.6 6.86667L10 5L13 1" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                          </span>
+                        </button>
+                        <div
+                          class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300"
+                          data-height="40">
+                          <a class="link !font-bold dropdown-btn-option"
+                            data-link="https://www.blurb.com/b/11476889-stuff-crypto-ogs-know">
+                            Softcover
+                          </a>
+                        </div>
+                      </div>
+
+                      <a class="dropdown-btn-shop" href="./pdf/Crypto_OG_Book.pdf" target="_blank">
+                        <button class="primary">Get it (free)</button>
                       </a>
                     </div>
                   </div>
-
-                  <a class="dropdown-btn-shop" href="https://bits.owocki.com/bLuOWr84" target="_blank">
-                    <button class="primary">Get it (free)</button>
-                  </a>
                 </div>
-              </div>
-            </div>
 
-            <!-- Future History of Open Internet -->
-            <div class="flex flex-col items-center">
-              <img src="./src/images/fhotoi.png" width="244" height="300"
-                class="mb-4 w-auto max-h-[230px] 2xl:w-[244px] 2xl:h-[300px] 2xl:max-h-none"
-                alt="Future History of Open Internet book cover" />
-              <div>
-                <div class="flex gap-4 justify-center items-start xl:flex-row flex-col mb-3">
-                  <div
-                    class="border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
-                    <button class="secondary !border-none flex gap-4 justify-between items-center">
-                      <span class="dropdown-btn-selected" data-link="https://bits.owocki.com/JruO9wLK">
-                        Ebook
-                      </span>
-                      <span>
-                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M1 1L5.4 6.86667C6.2 7.93333 7.8 7.93333 8.6 6.86667L10 5L13 1" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                      </span>
-                    </button>
-                    <div
-                      class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300"
-                      data-height="40">
-                      <a class="link !font-bold dropdown-btn-option"
-                        data-link="https://www.blurb.com/b/11120683-future-history-of-the-open-internet">
-                        Softcover
+                <!-- Future History of Open Internet -->
+                <div class="flex flex-col items-center">
+                  <img src="./src/images/fhotoi.png" width="244" height="300"
+                    class="mb-4 w-auto max-h-[230px] 2xl:w-[244px] 2xl:h-[300px] 2xl:max-h-none"
+                    alt="Future History of Open Internet book cover" />
+                  <div>
+                    <div class="flex gap-4 justify-center items-start xl:flex-row flex-col mb-3">
+                      <div
+                        class="border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
+                        <button class="secondary !border-none flex gap-4 justify-between items-center">
+                          <span class="dropdown-btn-selected" data-link="./pdf/the-future-history-of-the-open-internet.pdf">
+                            Ebook
+                          </span>
+                          <span>
+                            <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1 1L5.4 6.86667C6.2 7.93333 7.8 7.93333 8.6 6.86667L10 5L13 1" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                          </span>
+                        </button>
+                        <div
+                          class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300"
+                          data-height="40">
+                          <a class="link !font-bold dropdown-btn-option"
+                            data-link="https://www.blurb.com/b/11120683-future-history-of-the-open-internet">
+                            Softcover
+                          </a>
+                        </div>
+                      </div>
+
+                      <a class="dropdown-btn-shop" href="./pdf/the-future-history-of-the-open-internet.pdf" target="_blank">
+                        <button class="primary">Get it (free)</button>
                       </a>
                     </div>
                   </div>
-
-                  <a class="dropdown-btn-shop" href="https://bits.owocki.com/JruO9wLK" target="_blank">
-                    <button class="primary">Get it (free)</button>
-                  </a>
                 </div>
               </div>
-            </div>
-          </div>
 
-        <div class="flex xl:gap-10 gap-4 xl:flex-col items-center sm:flex-row flex-col">
-          <div style="max-width: 700px;">
-            <p class="text-center"> "The 'Ethereum for Public Goods' series is designed to entertain & inspire conversations about using web3 to fight Moloch - the God of Coordination Failure</p>
-          </div>
-        </div>
-            <!-- Comic book -->
-            <div class="flex flex-col items-center">
-              <img src="./src/images/comic.png" width="244" height="300"
-                class="mb-4 w-auto max-h-[230px] 2xl:w-[244px] 2xl:h-[300px] 2xl:max-h-none"
-                alt="Comic Know book cover" />
-              <div>
-                <div class="flex gap-4 justify-center items-start xl:flex-row flex-col mb-3">
-                  <div
-                    class="border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
-                    <button class="secondary !border-none flex gap-4 justify-between items-center">
-                      <span class="dropdown-btn-selected" data-link="https://bits.owocki.com/wbuQJnyE">
-                        Comic 1
-                      </span>
-                      <span>
-                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M1 1L5.4 6.86667C6.2 7.93333 7.8 7.93333 8.6 6.86667L10 5L13 1" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                      </span>
-                    </button>
-                    <div
-                      class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300"
-                      data-height="120">
-                      <a class="link !font-bold dropdown-btn-option"
-                        data-link="https://bits.owocki.com/yAuQowWX">
-                        Comic 2
-                      </a>
-                      <a class="link !font-bold dropdown-btn-option"
-                        data-link="https://bits.owocki.com/nOubYqpE">
-                        Comic 3
-                      </a>
-                      <a class="link !font-bold dropdown-btn-option"
-                        data-link="https://bits.owocki.com/QwudZDPj">
-                        Comic 4
+            <div class="flex xl:gap-10 gap-4 xl:flex-col items-center sm:flex-row flex-col">
+              <div style="max-width: 700px;">
+                <p class="text-center"> "The 'Ethereum for Public Goods' series is designed to entertain & inspire conversations about using web3 to fight Moloch - the God of Coordination Failure</p>
+              </div>
+            </div>
+                <!-- Comic book -->
+                <div class="flex flex-col items-center pb-20">
+                  <img src="./src/images/comic.png" width="244" height="300"
+                    class="mb-4 w-auto max-h-[230px] 2xl:w-[244px] 2xl:h-[300px] 2xl:max-h-none"
+                    alt="Comic Know book cover" />
+                  <div>
+                    <div class="flex gap-4 justify-center items-start xl:flex-row flex-col mb-3">
+                      <div
+                        class="border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
+                        <button class="secondary !border-none flex gap-4 justify-between items-center">
+                          <span class="dropdown-btn-selected" data-link="./pdf/Comic1.pdf">
+                            Comic 1
+                          </span>
+                          <span>
+                            <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1 1L5.4 6.86667C6.2 7.93333 7.8 7.93333 8.6 6.86667L10 5L13 1" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                          </span>
+                        </button>
+                        <div
+                          class="divide-y border border-[var(--mid-green)] rounded-[20px] backdrop-blur-md divide-green fixed top-full left-0 right-0 bg-black bg-opacity-50 flex-col dropdown-btn-content hidden h-0 opacity-0 transition-all duration-300"
+                          data-height="120">
+                          <a class="link !font-bold dropdown-btn-option"
+                            data-link="./pdf/Comic2.pdf">
+                            Comic 2
+                          </a>
+                          <a class="link !font-bold dropdown-btn-option"
+                            data-link="./pdf/Comic3.pdf">
+                            Comic 3
+                          </a>
+                          <a class="link !font-bold dropdown-btn-option"
+                            data-link="./pdf/Comic4.pdf">
+                            Comic 4
+                          </a>
+                        </div>
+                      </div>
+
+                      <a class="dropdown-btn-shop" href="./pdf/Comic1.pdf" target="_blank">
+                        <button class="primary">Get it (free)</button>
                       </a>
                     </div>
                   </div>
-
-                  <a class="dropdown-btn-shop" href="https://bits.owocki.com/wbuQJnyE" target="_blank">
-                    <button class="primary">Get it (free)</button>
-                  </a>
                 </div>
               </div>
             </div>
-          </div>
-
-      </div>          
-
-
+          </div>          
         </div>
       </section>
 
@@ -401,12 +393,16 @@
             <p>With new episodes every Tuesday and Thursday, the greenpill podcast is your go-to source for education,
               inspiration, &
               hope.</p>
-            <div class="flex flex-wrap sm:gap-4 items-center sm:justify-start justify-center">
-              <a href="https://pod.link/1609313639" target="_blank"><button class="primary">Listen Anywhere</button></a>
-              <a class="link" href="https://www.youtube.com/@Green_Pill_Podcast" target="_blank">
-                <button class="primary">View on Youtube</button>
-              </a>
-              <a class="link" href="https://twitter.com/intent/tweet?text=@greenpillglobal%20@owocki%20you%20should%20have%20x%20on%20greenpill" target="_blank">
+            <div class="w-full">
+              <div class="flex flex-wrap gap-4 items-center sm:justify-start justify-center">
+                <a href="https://pod.link/1609313639" target="_blank"><button class="primary">Listen Anywhere</button></a>
+                <a href="https://www.youtube.com/@Green_Pill_Podcast" target="_blank">
+                  <button class="secondary">View on Youtube</button>
+                </a>
+              </div>
+              <a class="link text-center block"
+                href="https://twitter.com/intent/tweet?text=@greenpillglobal%20@owocki%20you%20should%20have%20x%20on%20greenpill"
+                target="_blank">
                 Recommend a guest
               </a>
             </div>
@@ -435,9 +431,9 @@
             <p>These regen recipe books are focused on teaching engaging new ways to regenerate your local community.  We expect these guides to be pivotal in cross-pollinating engagement modalities across chapters. </p>
 
             <p>Coming Soon ™️.</p>
-            <div class="flex flex-wrap sm:gap-4 items-center sm:justify-start justify-center">
+            <div class="flex flex-wrap gap-4 items-center sm:justify-start justify-center">
               <a href="https://bit.ly/greenpill-your-city" target="_blank"><button class="primary">Write a Guide</button></a>
-              <a class="link" href="https://bit.ly/greenpill-your-city" target="_blank">
+              <a class="link !px-0" href="https://bit.ly/greenpill-your-city" target="_blank">
                 Read Guides (coming soon)
               </a>
             </div>
@@ -460,232 +456,246 @@
           class="absolute z-0 top-[70vh] right-0 parallax-bg" />
         <h2 class="font-volkhov text-xl lg:text-3xl text-yellow mb-4">Participate</h2>
         <div class="flex gap-2 sm:gap-[10%] justify-center relative h-fit">
-          <div class="divide-y divide-yellow">
+          <div class="divide-y divide-yellow backdrop-blur-md px-4 flex flex-col gap-6">
             <!-- beginner -->
-            <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
-              <h3 class="text-lg sm:text-2xl text-yellow mb-6">
-                Beginner
-              </h3>
-              <div class="content flex flex-col gap-2 !leading-loose sm:text-lg text-sm">
-                <p class="">Education: </p>
+            <div class="flex sm:flex-row flex-col-reverse sm:items-center justify-between gap-4 px-2 sm:px-8 sm:py-0 py-6 rounded-2xl">
+              <div class="sm:py-6 py-2 sm:gap-6 gap-2 flex flex-col justify-center">
+                <h3 class="text-lg sm:text-2xl text-yellow mb-6">
+                  Beginner
+                </h3>
+                <div class="content flex flex-col gap-2 sm:text-lg text-sm">
+                  <p class="">Education: </p>
 
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://pod.link/1609313639" target="_blank">Listen to the podcast</a>
-                </div>
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://www.youtube.com/@Green_Pill_Podcast" target="_blank">Check out the Youtube</a>
-                </div>
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="12" height="8" viewBox="0 0 11 8"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="#book">Read/share the book(s)</a>
-                </div>
-                <p class="">Socials: </p>
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://discord.gg/greenpill">
-                    Join the Discord
-                  </a>
-                </div>
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://t.me/+g9TM8i7GpxAzMGUx">
-                    Join the Telegram
-                  </a>
-                </div>
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://www.tiktok.com/@greenpill.network">
-                    Follow the TikTok
-                  </a>
-                </div>
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <a href="https://pod.link/1609313639" target="_blank">Listen to the podcast</a>
+                  </div>
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <a href="https://www.youtube.com/@Green_Pill_Podcast" target="_blank">Check out the Youtube</a>
+                  </div>
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="12" height="8" viewBox="0 0 11 8"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <a href="#book">Read/share the book(s)</a>
+                  </div>
+                  <p class="">Socials: </p>
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <a href="https://discord.gg/greenpill">
+                      Join the Discord
+                    </a>
+                  </div>
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <a href="https://t.me/+g9TM8i7GpxAzMGUx">
+                      Join the Telegram
+                    </a>
+                  </div>
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <a href="https://www.tiktok.com/@greenpill.network">
+                      Follow the TikTok
+                    </a>
+                  </div>
 
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://twitter.com/greenpillnet">
-                    Follow the Twitter
-                  </a>
-                </div>
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <a href="https://twitter.com/greenpillnet">
+                      Follow the Twitter
+                    </a>
+                  </div>
 
+                </div>
               </div>
+              <img src="./src/images/resource1.png"
+                class="w-[80px] h-[80px] sm:w-[250px] sm:h-[250px] 2xl:w-[434px] 2xl:h-[434px]"
+                alt="" width="434" height="434" />
             </div>
             <!-- intermediate -->
-            <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
-              <h3 class="text-lg sm:text-2xl text-yellow mb-6">
-                Intermediate
-              </h3>
-              <div class="content flex flex-col gap-2 !leading-loose sm:text-lg text-sm">
+            <div class="flex sm:flex-row flex-col-reverse sm:items-center justify-between gap-4 px-2 sm:px-8 sm:py-0 py-6 rounded-2xl">
+              <div class="sm:py-6 py-2 sm:gap-6 gap-2 flex flex-col justify-center">
+                <h3 class="text-lg sm:text-2xl text-yellow mb-6">
+                  Intermediate
+                </h3>
+                <div class="content flex flex-col gap-2 sm:text-lg text-sm">
 
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="#network">
-                    Join a local chapter
-                  </a>
-                </div>
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <p style="color:white">
-                    Join an ImpactDAO (
-                    <a class="link" style="padding: 0px!important" href="https://bits.owocki.com/xQuq8vDr">
-                      ImpactDAO Book
-                    </a> ,
-                    <a class="link"  style="padding: 0px!important" href="https://impactdaos.xyz/daos"> ImpactDAOs.xyz directory
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <a href="#network">
+                      Join a local chapter
                     </a>
-                    )
-                  </p>
+                  </div>
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <p style="color:white">
+                      Join an ImpactDAO (
+                      <a class="link" style="padding: 0px!important" href="https://bits.owocki.com/xQuq8vDr">
+                        ImpactDAO Book
+                      </a> ,
+                      <a class="link"  style="padding: 0px!important" href="https://impactdaos.xyz/daos"> ImpactDAOs.xyz directory
+                      </a>
+                      )
+                    </p>
+                  </div>
+                    <p class="pl-5">Tell a friend.</p>
                 </div>
-                  <p class="pl-5">Tell a friend.</p>
               </div>
+              <img src="./src/images/resource2.png" class="w-[80px] h-[80px] sm:w-[250px] sm:h-[250px] 2xl:w-[434px] 2xl:h-[434px]"
+                alt="" width="434" height="434" />
             </div>
             <!-- advanced -->
-            <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
-              <h3 class="text-lg sm:text-2xl text-yellow mb-6">
-                Advanced
-              </h3>
-              <div class="content flex flex-col gap-2 !leading-loose sm:text-lg text-xs">
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://docs.google.com/document/d/1obNKrnOQBECtCGL8-73a6ArKmPPHP2GMrMoPlskUJZM/edit">Join the QF Round</a>
+            <div class="flex sm:flex-row flex-col-reverse sm:items-center justify-between gap-4 px-2 sm:px-8 sm:py-0 py-6 rounded-2xl">
+              <div class="sm:py-6 py-2 sm: gap-6gap-2  flex flex-col justify-center">
+                <h3 class="text-lg sm:text-2xl text-yellow mb-6">
+                  Advanced
+                </h3>
+                <div class="content flex flex-col gap-2 sm:text-lg text-xs">
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <a href="https://docs.google.com/document/d/1obNKrnOQBECtCGL8-73a6ArKmPPHP2GMrMoPlskUJZM/edit">Join the QF Round</a>
+                  </div>
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <a href="https://forms.gle/dMKCDqQR1ACXQ2CZ9">Write a local regen guide</a>
+                  </div>
+                  <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                    <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                        fill="currentColor" />
+                    </svg>
+                    <a href="https://bit.ly/greenpill-your-city">Start a local chapter</a>
+                  </div>
+                  <p class="pl-5">Start an ImpactDAO</p>
+                  <p class="pl-5">Distribute the book/podcast/<a href="https://gov.gitcoin.co/t/make-your-own-green-pills/10521">meme</a>.</p>
+                  <p class="pl-5">Organize a teachback (meetup or written).</p>
+                  <p class="pl-5">Run a regenerative experiment in your local community.</p>
+                  <p class="pl-5">Come up with your own way of contributing.</p>
                 </div>
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://forms.gle/dMKCDqQR1ACXQ2CZ9">Write a local regen guide</a>
-                </div>
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://bit.ly/greenpill-your-city">Start a local chapter</a>
-                </div>
-                <p class="pl-5">Start an ImpactDAO</p>
-                <p class="pl-5">Distribute the book/podcast/<a href="https://gov.gitcoin.co/t/make-your-own-green-pills/10521">meme</a>.</p>
-                <p class="pl-5">Organize a teachback (meetup or written).</p>
-                <p class="pl-5">Run a regenerative experiment in your local community.</p>
-                <p class="pl-5">Come up with your own way of contributing.</p>
               </div>
+              <img src="./src/images/resource3.png" class="w-[80px] h-[80px] sm:w-[250px] sm:h-[250px] 2xl:w-[434px] 2xl:h-[434px]"
+                alt="" width="434" height="434" />
             </div>
             <!-- partner -->
-            <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
-              <h3 class="text-lg sm:text-2xl text-yellow mb-6">
-                Partnerships & Sponsorships
-              </h3>
-              <div class="content flex flex-col gap-2 !leading-loose sm:text-lg text-sm">
-                <p class="pl-5">
-                  If  you represent an organization that would like to partner with the greenpill network, please get in touch in the #introduce-yourself channel <a href="https://discord.gg/greenpill" class=" text-green hover:text-[var(--mid-green)] transition-all" target="_blank"> via discord</a>.
+            <div class="flex sm:flex-row flex-col-reverse sm:items-center justify-between gap-4 px-2 sm:px-8 sm:py-0 py-6 rounded-2xl">
+              <div class="sm:py-6 py-2 sm:gap-6 gap-2 flex flex-col justify-center">
+                <h3 class="text-lg sm:text-2xl text-yellow mb-6">
+                  Partnerships & Sponsorships
+                </h3>
+                <div class="content flex flex-col gap-2 sm:text-lg text-sm">
+                  <p class="pl-5">
+                    If  you represent an organization that would like to partner with the greenpill network, please get in touch in the #introduce-yourself channel <a href="https://discord.gg/greenpill" class=" text-green hover:text-[var(--mid-green)] transition-all" target="_blank"> via discord</a>.
 
-                </p>
-                <p class="pl-5">
-                </p>
-              </div>
-            <div class="py-4 sm:min-h-[80vh] gap-6 flex flex-col justify-center resource">
-              <h3 class="text-lg sm:text-2xl text-yellow mb-6">
-                Other Regen Conveners
-              </h3>
-                <p class="pl-5">
-                  Pluralism is strength!  The greenpill network is built to be interoperable with the other great conveners out there in the regen x web3 ecosystem.
-                  These other organizations share a similar mission/ethos and offer complimentary resources to the Greenpill.network.
-                </p>
-                <div class="pl-5">
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://www.regensunite.earth/">
-                    Regens Unite
-                  </a>
+                  </p>
+                  <p class="pl-5">
+                  </p>
                 </div>
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://impactdaos.xyz/">
-                    ImpactDAOS.xyz
-                  </a>
-                </div>
+                <div class="py-6  gap-6 flex flex-col justify-center">
+                  <h3 class="text-lg sm:text-xl text-yellow mb-2 pl-4">
+                    Other Regen Conveners
+                  </h3>
+                    <p class="pl-5">
+                      Pluralism is strength!  The greenpill network is built to be interoperable with the other great conveners out there in the regen x web3 ecosystem.
+                      These other organizations share a similar mission/ethos and offer complimentary resources to the Greenpill.network.
+                    </p>
+                    <div class="pl-5">
+                    <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                      <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                          fill="currentColor" />
+                      </svg>
+                      <a href="https://www.regensunite.earth/">
+                        Regens Unite
+                      </a>
+                    </div>
+                    <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                      <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                          fill="currentColor" />
+                      </svg>
+                      <a href="https://impactdaos.xyz/">
+                        ImpactDAOS.xyz
+                      </a>
+                    </div>
 
-                <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
-                  <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
-                      fill="currentColor" />
-                  </svg>
-                  <a href="https://www.refidao.com/">
-                    RefiDAO
-                  </a>
+                    <div class="flex gap-2 items-center text-green hover:text-[var(--mid-green)] group">
+                      <svg class="group-hover:translate-x-1 transition-all duration-300" width="11" height="8" viewBox="0 0 11 8"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M0.5 3.5C0.223858 3.5 0 3.72386 0 4C0 4.27614 0.223858 4.5 0.5 4.5V3.5ZM10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464466C6.97631 0.269204 6.65973 0.269204 6.46447 0.464466C6.2692 0.659728 6.2692 0.976311 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM0.5 4.5H10V3.5H0.5V4.5Z"
+                          fill="currentColor" />
+                      </svg>
+                      <a href="https://www.refidao.com/">
+                        RefiDAO
+                      </a>
+                    </div>
+                  </div>
                 </div>
-
               </div>
-              </div>
+              <img src="./src/images/resource4.png" class="w-[80px] h-[80px] sm:w-[250px] sm:h-[250px] 2xl:w-[434px] 2xl:h-[434px]"
+                alt="" width="434" height="434" />
             </div>
           </div>
 
-
-
-          <img src="./src/images/resource1.png" id="resource-img"
+          <!-- <img src="./src/images/resource1.png" id="resource-img"
             class="hidden sm:block sticky top-[30vh] z-10 transition-all w-[80px] h-[80px] sm:w-[250px] sm:h-[250px] lg:w-[434px] lg:h-[434px]"
-            alt="" width="434" height="434" />
+            alt="" width="434" height="434" /> -->
         </div>
       </section>
 
@@ -748,7 +758,7 @@
           </div>
 
           <img src="./src/images/img-sequence/01.png" id="footer-img" alt="" width="432" height="432"
-            class="w-[80px] h-[80px] lg:w-[432px] lg:h-[432px]" />
+            class="w-[80px] h-[80px] md:w-[300px] md:h-[300px] 2xl:w-[432px] 2xl:h-[432px]" />
         </div>
 
         <footer class="pb-12 sm:pb-6">
@@ -1009,46 +1019,6 @@
   </script>
 
   <script>
-    // resources
-    let resourcesImgTimeoutId;
-    if (!window.innerWidth < 640) {
-      const isElementXPercentInViewport = function (el, percentVisible) {
-        let
-          rect = el.getBoundingClientRect(),
-          windowHeight = (window.innerHeight || document.documentElement.clientHeight);
-
-        return !(
-          Math.floor(100 - (((rect.top >= 0 ? 0 : rect.top) / +-rect.height) * 100)) < percentVisible ||
-          Math.floor(100 - ((rect.bottom - windowHeight) / rect.height) * 100) < percentVisible
-        )
-      };
-
-      const resources = document.querySelectorAll('.resource');
-      const resourceImg = document.getElementById('resource-img');
-
-      window.addEventListener('scroll', () => {
-        resources.forEach((resource, index) => {
-          if (isElementXPercentInViewport(resource, 80)) {
-            const newSrc = `./src/images/resource${index + 1}.png`;
-            const prevSrcStartIndex = resourceImg.src.indexOf('/src');
-            const prevSrc = resourceImg.src.slice(prevSrcStartIndex);
-            const x = newSrc.slice(1);
-            if (x !== prevSrc) {
-              if (resourcesImgTimeoutId) clearTimeout(resourcesImgTimeoutId);
-              resourceImg.style.opacity = 0;
-              resourceImg.style.scale = 0.8;
-              resourcesImgTimeoutId = setTimeout(() => {
-                resourceImg.src = `./src/images/resource${index + 1}.png`
-                resourceImg.style.opacity = 1;
-                resourceImg.style.scale = 1;
-              }, 150);
-            }
-          }
-        });
-      });
-    }
-
-
     // dropdown buttons
     const dropdownButtons = document.querySelectorAll('.dropdown-btn');
     const dropdownButtonsContent = document.querySelectorAll('.dropdown-btn-content');
@@ -1087,7 +1057,7 @@
         option.addEventListener('click', () => {
           closeDropdown(i);
           const prevSelectedText = selected.innerText;
-          dropdownCtaText[i].innerText = option.innerText == 'Ebook' ? 'Get it (free)' : 'Get it'; 
+          dropdownCtaText[i].innerText = option.innerText == 'Ebook' || option.innerText.includes('Comic') ? 'Get it (free)' : 'Get it'; 
           selected.innerText = option.innerText;
           option.innerText = prevSelectedText;
           const prevSelectedLink = selected.dataset.link;
@@ -1097,6 +1067,14 @@
         })
       });
     });
+
+    // more books
+    const moreBooksBtn = document.getElementById('more-books-btn');
+    const moreBooksContent = document.getElementById('more-books-content');
+    moreBooksBtn.addEventListener('click', () => {
+        moreBooksContent.style.display = 'flex';
+        moreBooksBtn.style.display = 'none';
+    })
   </script>
 
   <!-- parallax bg -->

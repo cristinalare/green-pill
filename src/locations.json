@@ -118,5 +118,29 @@
     "lat": 39.9,
     "long": 116.3,
     "link": "https://greenpillcn.notion.site/GreenPill-04ea0224d3cd4fe9b5181b6dd22d02b4"
-  }
+  },
+  {
+"name": "Brazil",
+"lat": 14,
+"long": 51,
+"link": "https://twitter.com/greenpillbrasil"
+},
+{
+"name": "Nigeria",
+"lat": 10,
+"long": 6,
+"link": "https://twitter.com/Greenpillnaija"
+},
+{
+"name": "Japan",
+"lat": 36.2,
+"long": 138.2,
+"link": "https://twitter.com/GreenSofa_TW"
+},
+{
+"name": "UK",
+"lat": 20.4,
+"long": -89.13,
+"link": "https://twitter.com/GreenpillUK"
+}
 ]

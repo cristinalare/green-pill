@@ -121,8 +121,8 @@
   },
   {
 "name": "Brazil",
-"lat": 14,
-"long": 51,
+"lat": -15,
+"long": -47,
 "link": "https://twitter.com/greenpillbrasil"
 },
 {
@@ -139,8 +139,8 @@
 },
 {
 "name": "UK",
-"lat": 20.4,
-"long": -89.13,
+"lat": 53.5,
+"long": 2.4,
 "link": "https://twitter.com/GreenpillUK"
 }
 ]

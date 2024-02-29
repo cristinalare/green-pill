@@ -858,6 +858,9 @@ video {
 .max-w-4xl {
   max-width: 56rem;
 }
+.max-w-\[700px\] {
+  max-width: 700px;
+}
 .max-w-full {
   max-width: 100%;
 }
@@ -1810,6 +1813,9 @@ video {
 .pt-24 {
   padding-top: 6rem;
 }
+.pt-6 {
+  padding-top: 1.5rem;
+}
 .pt-8 {
   padding-top: 2rem;
 }
@@ -2578,6 +2584,10 @@ video {
 
   .xl\:gap-\[5\%\] {
     gap: 5%;
+  }
+
+  .xl\:pt-16 {
+    padding-top: 4rem;
   }
 }
 @media (min-width: 1536px) {

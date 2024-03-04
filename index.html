@@ -1145,41 +1145,43 @@
   <script>
     // dropdown buttons
     const dropdownButtons = document.querySelectorAll('.dropdown-btn');
-    const dropdownButtonsContent = document.querySelectorAll('.dropdown-btn-content');
     const dropdownButtonsCTA = document.querySelectorAll('.dropdown-btn-shop');
     const dropdownCtaText = document.querySelectorAll('.dropdown-btn-shop button');
     let timeoutId;
 
-    const openDropdown = (i) => {
+    const openDropdown = (dropdownButton) => {
+      const dropdownButtonContent = dropdownButton.querySelector('.dropdown-btn-content');
+
       clearTimeout(timeoutId);
-      dropdownButtonsContent[i].style.display = 'flex';
+      dropdownButtonContent.style.display = 'flex';
       setTimeout(() => {
-        const elemHeight = window.innerWidth > 800 ? `${dropdownButtonsContent[i].dataset.height}px` : `${dropdownButtonsContent[i].dataset.height * 0.85}px`;
-        dropdownButtonsContent[i].style.height = elemHeight;
-        dropdownButtonsContent[i].style.opacity = '1';
+        const elemHeight = window.innerWidth > 800 ? `${dropdownButtonContent.dataset.height}px` : `${dropdownButtonContent.dataset.height * 0.85}px`;
+        dropdownButtonContent.style.height = elemHeight;
+        dropdownButtonContent.style.opacity = '1';
       }, 1);
     };
 
-    const closeDropdown = (i) => {
+    const closeDropdown = (dropdownButton) => {
+      const dropdownButtonContent = dropdownButton.querySelector('.dropdown-btn-content');
       clearTimeout(timeoutId);
-      dropdownButtonsContent[i].style.height = '0px';
-      dropdownButtonsContent[i].style.opacity = '0';
+      dropdownButtonContent.style.height = '0px';
+      dropdownButtonContent.style.opacity = '0';
       setTimeout(() => {
-        dropdownButtonsContent[i].style.display = 'none';
+        dropdownButtonContent.style.display = 'none';
       }, 300);
     };
 
     dropdownButtons.forEach((btn, i) => {
-      btn.addEventListener('mouseover', () => openDropdown(i));
-      btn.addEventListener('mouseleave', () => closeDropdown(i));
+      btn.addEventListener('mouseover', () => openDropdown(btn));
+      btn.addEventListener('mouseleave', () => closeDropdown(btn));
       // btn.querySelector('button').addEventListener('click', () => dropdownButtonsContent[i].style.display == 'flex' ? closeDropdown(i) : openDropdown(i));
 
       const selected = btn.querySelector('.dropdown-btn-selected');
       const options = btn.querySelectorAll('.dropdown-btn-option');
 
-      options.forEach(option => {
+      options?.forEach(option => {
         option.addEventListener('click', () => {
-          closeDropdown(i);
+          closeDropdown(btn);
           const prevSelectedText = selected.innerText;
           dropdownCtaText[i].innerText = option.innerText == 'Ebook' || option.innerText.includes('Comic') ? 'Get it (free)' : 'Get it';
           selected.innerText = option.innerText;

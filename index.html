@@ -148,9 +148,9 @@
               class="mb-4 w-auto max-h-[230px] 2xl:w-[244px] 2xl:h-[300px] 2xl:max-h-none"
               alt="Exploring MyCoFi - Mycelial Design Patterns for Web3 and Beyond" />
             <div>
-              <div class="flex gap-4 justify-center items-start xl:flex-row flex-col mb-3">
+              <div class="flex gap-4 justify-center items-start mb-3 xl:flex-row flex-col">
                 <div
-                  class="border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
+                  class="relative border border-green rounded-[20px] hover:border-[var(--mid-green)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300 dropdown-btn divide-y divide-green flex flex-col">
                   <button class="secondary !border-none flex gap-4 justify-between items-center">
                     <span class="dropdown-btn-selected" data-link="./pdf/mycofi.pdf">
                       Ebook
@@ -179,6 +179,12 @@
                 <a class="dropdown-btn-shop" href="./pdf/mycofi.pdf" target="_blank">
                   <button class="primary">Get it (free)</button>
                 </a>
+
+              </div>
+              <div class="flex flex-wrap justify-center xl:flex-row flex-col items-center">
+                <button class="link sm:text-base text-sm p-0" id="mycofi-modal-btn">
+                  Translations
+                </button>
               </div>
             </div>
           </div>
@@ -226,7 +232,7 @@
                 </a>
               </div>
               <div class="flex flex-wrap justify-center xl:flex-row flex-col items-center">
-                <button class="link sm:text-base text-sm p-0" id="modal-btn">
+                <button class="link sm:text-base text-sm p-0" id="greenpill-modal-btn">
                   Translations
                 </button>
               </div>
@@ -869,47 +875,64 @@
       </footer>
     </section>
 
-    <div class="overlay hidden">
+    <div id="greenpill-modal" class="overlay hidden">
       <div class="modal hidden max-w-sm max-h-[85vh] overflow-y-scroll">
         <div class="m-auto max-w-sm  border border-[var(--mid-green)] rounded-[20px] bg-black bg-opacity-90">
-          <h5 class="sm:text-lg font-bold text-yellow my-3 text-center">PDF translations</h5>
+          <h5 class="font-bold text-yellow my-3 text-center">GreenPilled: Regenerative CryptoEconomics</h5>
+          <h5 class="font-bold text-yellow my-3 text-center">Translations</h5>
           <div class="divide-y divide-green flex flex-col">
-            <a href="./pdf/translations/greenpill-chinese.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-chinese.pdf" target="_blank" class="link !font-bold">
               Chinese
             </a>
-            <a href="./pdf/translations/greenpill-french.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-french.pdf" target="_blank" class="link !font-bold">
               French
             </a>
-            <a href="./pdf/translations/greenpill-hindi.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-hindi.pdf" target="_blank" class="link !font-bold">
               Hindi
             </a>
-            <a href="./pdf/translations/greenpill-indonesian.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-indonesian.pdf" target="_blank" class="link !font-bold">
               Indonesian
             </a>
-            <a href="./pdf/translations/greenpill-italian.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-italian.pdf" target="_blank" class="link !font-bold">
               Italian
             </a>
-            <a href="./pdf/translations/greenpill-japanese.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-japanese.pdf" target="_blank" class="link !font-bold">
               Japanese
             </a>
-            <a href="./pdf/translations/greenpill-korean.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-korean.pdf" target="_blank" class="link !font-bold">
               Korean
             </a>
-            <a href="./pdf/translations/greenpill-russian.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-russian.pdf" target="_blank" class="link !font-bold">
               Russian
             </a>
-            <a href="./pdf/translations/greenpill-persian.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-persian.pdf" target="_blank" class="link !font-bold">
               Persian
             </a>
-            <a href="./pdf/translations/greenpill-portuguese.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-portuguese.pdf" target="_blank" class="link !font-bold">
               Portuguese
             </a>
-            <a href="./pdf/translations/greenpill-spanish.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-spanish.pdf" target="_blank" class="link !font-bold">
               Spanish
             </a>
-            <a href="./pdf/translations/greenpill-turkish.pdf" target="_blank" class="link !font-bold">
+            <a href="./pdf/greenpill-translations/greenpill-turkish.pdf" target="_blank" class="link !font-bold">
               Turkish
             </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mycofi-modal" class="overlay hidden">
+      <div class="modal hidden max-w-sm max-h-[85vh] overflow-y-scroll">
+        <div class="m-auto max-w-sm  border border-[var(--mid-green)] rounded-[20px] bg-black bg-opacity-90">
+          <h5 class="font-bold text-yellow my-3 text-center">Exploring MyCoFi</h5>
+          <h5 class="font-bold text-yellow my-3 text-center">Translations</h5>
+          <div class="divide-y divide-green flex flex-col">
+            <div class="pb-6">
+              <a href="./pdf/mycofi-translations/mycofi-russian.pdf" target="_blank" class="link !font-bold">
+                Russian
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -1224,14 +1247,32 @@
       }, 50);
     }
 
-    const openModalBtn = document.querySelector("#modal-btn");
-    const modal = document.querySelector(".modal");
-    const overlay = document.querySelector(".overlay");
+    const openGreenpillModalBtn = document.querySelector("#greenpill-modal-btn");
+    const openMycofiModalBtn = document.querySelector("#mycofi-modal-btn");
+    const greenpillModal = document.querySelector("#greenpill-modal .modal");
+    const mycofiModal = document.querySelector("#mycofi-modal .modal");
+    const greenpillOverlay = document.querySelector("#greenpill-modal.overlay");
+    const mycofiOverlay = document.querySelector("#mycofi-modal.overlay");
 
-    modal.addEventListener('click', modalClick);
+    const modals = [
+      {
+        modal: greenpillModal,
+        openModalButton: openGreenpillModalBtn,
+        modalOverlay: greenpillOverlay
+      },
+      {
+        modal: mycofiModal,
+        openModalButton: openMycofiModalBtn,
+        modalOverlay: mycofiOverlay
+      }
+    ]
+    modals.forEach(modal => {
+      modal.modal.addEventListener('click', modalClick);
+      modal.openModalButton.addEventListener("click", () => openModal(modal.modal, modal.modalOverlay));
+      modal.modalOverlay.addEventListener("click", (e) => closeModal(e, modal.modal, modal.modalOverlay));
+    })
 
-    openModalBtn.addEventListener("click", () => openModal(modal, overlay));
-    overlay.addEventListener("click", (e) => closeModal(e, modal, overlay));
+
   </script>
 </body>
 

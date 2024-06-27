@@ -2627,4 +2627,8 @@ video {
   .\32xl\:w-\[434px\] {
     width: 434px;
   }
+
+  .\32xl\:w-\[200px\] {
+    width: 200px;
+  }
 }

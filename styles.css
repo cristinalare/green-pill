@@ -1795,9 +1795,6 @@ video {
 .pb-24 {
   padding-bottom: 6rem;
 }
-.pb-32 {
-  padding-bottom: 8rem;
-}
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -2610,6 +2607,10 @@ video {
 
   .\32xl\:min-h-0 {
     min-height: 0px;
+  }
+
+  .\32xl\:w-\[200px\] {
+    width: 200px;
   }
 
   .\32xl\:w-\[244px\] {

@@ -2631,4 +2631,12 @@ video {
   .\32xl\:w-\[434px\] {
     width: 434px;
   }
+
+  .\32xl\:w-\[204px\] {
+    width: 204px;
+  }
+
+  .\32xl\:w-\[203px\] {
+    width: 203px;
+  }
 }

@@ -2616,6 +2616,14 @@ video {
     width: 200px;
   }
 
+  .\32xl\:w-\[203px\] {
+    width: 203px;
+  }
+
+  .\32xl\:w-\[204px\] {
+    width: 204px;
+  }
+
   .\32xl\:w-\[244px\] {
     width: 244px;
   }
@@ -2630,13 +2638,5 @@ video {
 
   .\32xl\:w-\[434px\] {
     width: 434px;
-  }
-
-  .\32xl\:w-\[204px\] {
-    width: 204px;
-  }
-
-  .\32xl\:w-\[203px\] {
-    width: 203px;
   }
 }
